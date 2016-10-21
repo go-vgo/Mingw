@@ -1,0 +1,50 @@
+V "GNAT Lib v4.8"
+A -gnatwa
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=core2
+A -march=nocona
+P ZX
+
+RN
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_ACCESS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK
+
+U system.atomic_counters%b  s-atocou.adb	3b8ad87b NE OL PK
+W system%s		system.ads		system.ali
+
+U system.atomic_counters%s  s-atocou.ads	119afa22 BN NE OL PR PK
+W system%s		system.ads		system.ali
+
+D system.ads		20120723080122 5b069696
+D s-atocou.ads		20111104134502 4a9c6cb4
+D s-atocou.adb		20111121115908 7116b4cf
+X 1 system.ads
+37K9*System 196e11 2|42r9 77r5 3|35r14 84r5
+X 2 s-atocou.ads
+42K16*Atomic_Counters 1|37k9 2|77l12 77e27 3|35b21 84l12 84t27
+46R9*Atomic_Counter 56r39 60r38 64r28 72c9 3|51r38 65r39 79r28
+56U14*Increment 56=25 57r26 3|65b14 73l8 73t17
+56r25 Item{46R9} 3|65b25 72m27 72r27
+60V13*Decrement{boolean} 60=24 61r26 3|51b13 59l8 59t17
+60r24 Item{46R9} 3|51b24 58m34 58r34
+64V13*Is_One{boolean} 64>21 65r26 3|79b13 82l8 82t14
+64r21 Item{46R9} 3|79b21 81r14
+70M9 Unsigned_32 73r23 3|38r22 39r15 43r22 44r15 44r35
+73m7*Value{70M9} 3|58m39 72m32 81r19
+X 3 s-atocou.adb
+37U14 Sync_Add_And_Fetch 38^7 39>7 40b30 72s7
+38p7 Ptr(2|70M9)
+39m7 Value{2|70M9}
+42V13 Sync_Sub_And_Fetch{2|70M9} 43^7 44>7 45b30 58s14
+43p7 Ptr(2|70M9)
+44m7 Value{2|70M9}
+

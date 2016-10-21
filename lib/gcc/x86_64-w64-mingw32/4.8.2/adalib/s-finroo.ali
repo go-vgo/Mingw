@@ -1,0 +1,61 @@
+V "GNAT Lib v4.8"
+A -gnatwa
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=core2
+A -march=nocona
+P ZX
+
+RN
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_ELABORATION_CODE
+RV SPARK
+
+U system.finalization_root%b  s-finroo.adb	95817ed8 NE OL PK
+W system%s		system.ads		system.ali
+
+U system.finalization_root%s  s-finroo.ads	14f4e506 EE OL PR PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.streams%s		a-stream.ads		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W system%s		system.ads		system.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-except.ads		20120716125142 10fcae55
+D a-stream.ads		20090409150020 2ca4ee37
+D a-tags.ads		20111212115430 6c0509d0
+D a-unccon.ads		20070406091342 f9eb8f06
+D system.ads		20120723080122 5b069696
+D s-exctab.ads		20090417131548 66e51330
+D s-finroo.ads		20120426095924 4ff27390
+D s-finroo.adb		20090409150020 da730d48
+D s-parame.ads		20110830140626 b6e20cc0
+D s-soflin.ads		20120515094620 24c8153c
+D s-stache.ads		20090417130712 596fc1b4
+D s-stalib.ads		20130104124956 f78bcf95
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152356 afc5dc80
+D s-traent.ads		20090417130712 5221ee41
+X 6 system.ads
+37K9*System 196e11 8|34r9 46r5 9|32r14 63r5
+X 8 s-finroo.ads
+34K16*Finalization_Root 6|37k9 8|46l12 46e29 9|32b21 63l12 63t29
+40H9*Root_Controlled 40e55 42p14 42r42 43p14 43r42 44p14 44r42 9|40r38 49r40
+. 58r42
+42U14*Adjust 42=26 9|40b14 43l8 43t14
+42r26 Object{40R9} 9|40b22
+43U14*Finalize 43=26 9|49b14 52l8 52t16
+43r26 Object{40R9} 9|49b24
+44U14*Initialize 44=26 9|58b14 61l8 61t18
+44r26 Object{40R9} 9|58b26
+

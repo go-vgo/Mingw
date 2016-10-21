@@ -1,0 +1,114 @@
+V "GNAT Lib v4.8"
+A -gnatwa
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=core2
+A -march=nocona
+P ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_CONVERSION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_OBSOLESCENT_FEATURES
+RV SPARK
+
+U gnat.table%b		g-table.adb		d849ea84 NE OL PK GE
+W ada%s			ada.ads			ada.ali
+W ada.unchecked_conversion%s
+W gnat%s		gnat.ads		gnat.ali
+W system%s		system.ads		system.ali
+W system.memory%s	s-memory.adb		s-memory.ali
+
+U gnat.table%s		g-table.ads		6d5c0593 BN EB NE OL PK GE
+W gnat%s		gnat.ads		gnat.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-unccon.ads		20070406091342 f9eb8f06
+D gnat.ads		20110801150502 fd2ad2f1
+D g-table.ads		20110801150502 9076d762
+D g-table.adb		20110801150502 20599863
+D system.ads		20120723080122 5b069696
+D s-memory.ads		20090417131548 ca8bbc15
+X 1 ada.ads
+16K9*Ada 19e8 5|35r6 66r31 67r31
+X 2 a-unccon.ads
+20v14*Unchecked_Conversion 5|35w10 66r35 67r35
+X 3 gnat.ads
+34K9*GNAT 37e9 4|56r9 204r5 5|37r14 329r5
+X 4 g-table.ads
+49+9 Table_Component_Type 105r43 177r32 190r15 5|92r32 239r16 292r34
+50I9 Table_Index_Type 52r22 105r13 107r37 140r25 157r21 160r34 189r15 197r50
+. 5|75r50 85r14 94r17 174r25 176r14 238r16 248r36 286r37 314r34
+52*4 Table_Low_Bound{50I9} 107r18 157r41 5|39r39 228r37
+53i4 Table_Initial{positive} 5|150r25
+54i4 Table_Increment{natural} 5|197r42
+56k14*Table 3|34k9 4|49z9 50z9 52z4 53z4 54z4 204l10 204e15 5|37b19 329l10
+. 329t15
+104A9*Table_Type(49+9)<50I9> 107r6 185r37 5|101r37 205r18 248r9
+106A12*Big_Table_Type{104A9}<50I9> 115r33
+115P9*Table_Ptr(106A12) 116r8 120r20 5|66r57 67r66
+120p4*Table{115P9} 5|123r25 124m7 207r10 208m10 211m10 212r53 216r31 248r21
+. 253r35 295m13 295r13 306m10 306r10
+127b4*Locked{boolean} 5|188r29
+133U14*Init 5|145b14 168l8 168t12 328s4
+140V13*Last{50I9} 141r19 5|174b13 177l8 177t12
+147U14*Release 5|226b14 231l8 231t15
+153U14*Free 5|121b14 126l8 126t12
+157*4*First{50I9}
+160U14*Set_Last 160>24 161r19 5|294s13 303s13 314b14 325l8 325t16
+160*24 New_Val{50I9} 5|314b24 316r19 317r31 319r31
+169U14*Increment_Last 170r19 5|132b14 139l8 139t22
+173U14*Decrement_Last 174r19 5|112b14 115l8 115t22
+177U14*Append 177>22 178r19 5|92b14 95l8 95t14 104s10
+177*22 New_Val{49+9} 5|92b22 94r50
+185U14*Append_All 185>26 5|101b14 106l8 106t18
+185a26 New_Vals{104A9} 5|101b26 103r16 104r18
+188U14*Set_Item 189>7 190>7 191r19 5|94s7 237b14 308l8 308t16
+189*7 Index{50I9} 5|238b8 275r51 294r23 295r20 302r22 303r23 306r17
+190*7 Item{49+9} 5|239b8 284r45 285r18 292r58 306r27
+197V13*Allocate{50I9} 197>23 198r19 5|75b13 86l8 86t16
+197i23 Num{integer} 5|75b23 79r30
+X 5 g-table.adb
+39i4 Min{integer} 149r19 150r19 151r25 199r20 204r24
+42i4 Max{integer} 81r21 136r21 150m7 151r19 187r10 190r16 199m13 204r18 229m7
+. 248r54 275r60 286r55 321r24
+45i4 Length{integer} 125m7 146r40 151m7 158r23 196m13 197r26 198r26 199r26
+. 216r10 228m7
+49i4 Last_Val{integer} 76r38 79m7 79r19 81r10 94r35 114m7 114r19 134m7 134r19
+. 136r10 149m7 176r32 187r16 190r22 228r17 229r17 302r31 316r30 317m10 319m10
+. 321r13
+56U14 Reallocate 82s10 137s10 166s10 183b14 220l8 220t18 230s7 322s13
+66V13 To_Address[2|20]{6|64M9} 123s13 212s41
+67V13 To_Pointer[2|20]{4|115P9} 208s19 212s12
+76i7 Old_Last{integer} 85r32
+103i11 J 104r28
+146i7 Old_Length{integer} 158r10
+184m7 New_Size{7|48M9} 203m7 208r38 210r13 213r41
+247A15 Allocated_Table_T{4|104A9}<4|50I9> 258r25
+252m7 Allocated_Table_Address{6|64M9} 261r39
+258a7 Allocated_Table{247A15} 259m27 259r27 260r43 261m11 261r11 284m18 284r18
+. 286m20 286r20
+275b7 Need_Realloc{boolean} 283r10
+292*13 Item_Copy{4|49+9} 295r30
+X 6 system.ads
+37K9*System 5|32w6 32r25 33r6 33r25 252r42 6|196e11
+64M9*Address 5|66r68 67r57 252r49
+68N4*Storage_Unit 5|205r46
+74V14*"<"{boolean} 5|285r31
+75V14*"<="{boolean} 5|284r42
+X 7 s-memory.ads
+45K16*Memory 5|33w13 33r32 7|107e18
+48M9*size_t 5|184r18 204r9
+53V13*Alloc{6|64M9} 5|208s31 7|103i<c,__gnat_malloc>22
+68U14*Free 5|123s7 7|104i<c,__gnat_free>22
+76V13*Realloc{6|64M9} 5|212s24 7|105i<c,__gnat_realloc>22
+77m7 Ptr{6|64M9} 5|212r33
+78m7 Size{48M9} 5|213r33
+

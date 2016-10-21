@@ -1,0 +1,213 @@
+V "GNAT Lib v4.8"
+A -gnatwa
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=core2
+A -march=nocona
+P SS ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IMPLICIT_LOOPS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_ACCESS
+RV NO_UNCHECKED_CONVERSION
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_ALIASING
+RV SPARK
+
+U gnat.random_numbers%b	g-rannum.adb		192b6b91 NE OL PK
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.long_elementary_functions%s  a-nlelfu.ads  a-nlelfu.ali
+W ada.unchecked_conversion%s
+W gnat%s		gnat.ads		gnat.ali
+W system%s		system.ads		system.ali
+W system.exn_llf%s	s-exnllf.adb		s-exnllf.ali
+W system.fat_flt%s	s-fatflt.ads		s-fatflt.ali
+W system.fat_lflt%s	s-fatlfl.ads		s-fatlfl.ali
+W system.img_lli%s	s-imglli.adb		s-imglli.ali
+W system.random_numbers%s  s-rannum.adb		s-rannum.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.val_lli%s	s-vallli.adb		s-vallli.ali
+
+U gnat.random_numbers%s	g-rannum.ads		8da139a4 BN EE NE OL PK
+W gnat%s		gnat.ads		gnat.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+W system.random_numbers%s  s-rannum.adb		s-rannum.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-numeri.ads		20080324174808 bb51c45a
+D a-ngelfu.ads		20120515120656 243903c9
+D a-nlelfu.ads		20070406091342 7620113d
+D a-unccon.ads		20070406091342 f9eb8f06
+D gnat.ads		20110801150502 fd2ad2f1
+D g-rannum.ads		20090409150020 3ca1f7b5
+D g-rannum.adb		20090409150020 f4f23d15
+D interfac.ads		20110906094622 129923ea
+D system.ads		20120723080122 5b069696
+D s-exctab.ads		20090417131548 66e51330
+D s-exnllf.ads		20121004090554 81841eef
+D s-fatflt.ads		20090409150020 11beb392
+D s-fatgen.ads		20090409150020 9267ca45
+D s-fatlfl.ads		20090409150020 378cba9f
+D s-imglli.ads		20090409150020 114f55d1
+D s-imguns.ads		20090409150020 9ff43cf7
+D s-rannum.ads		20100623054052 5eb33f0a
+D s-rannum.adb		20130102110616 34372cc7
+D s-ransee.ads		20120130115052 01a57b33
+D s-secsta.ads		20110830140626 eea35a36
+D s-stalib.ads		20130104124956 f78bcf95
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152356 afc5dc80
+D s-unstyp.ads		20090409150020 6ae15c76
+D s-vallli.ads		20090409150020 9a24e6a0
+D s-valuns.ads		20090409150020 10a8ed3b
+X 1 ada.ads
+16K9*Ada 19e8 8|32r6 33r5 34r6 56r10 58r10
+X 2 a-numeri.ads
+16K13*Numerics 32e17 8|32r10 33r9
+X 3 a-ngelfu.ads
+42V13*Sqrt{long_float} 8|177s18[4|18]
+48V13*Log{long_float} 8|177s31[4|18]
+X 4 a-nlelfu.ads
+18K22*Long_Elementary_Functions[3|39] 8|32w19 33r18
+X 5 a-unccon.ads
+20v14*Unchecked_Conversion 8|34w10 56r14 58r14
+X 6 gnat.ads
+34K9*GNAT 37e9 7|53r9 138r5 8|37r14 308r5
+X 7 g-rannum.ads
+53K14*Random_Numbers 6|34k9 7|138l10 138e24 8|37b19 308l10 308t24
+55R9*Generator 59r27 60r27 63r27 64r27 65r27 66r27 67r27 68r27 76r15 83r35
+. 86r36 87r36 91r31 95r23 98r23 101r23 104r23 109r31 109r55 113r31 114r26
+. 125c9 8|79r15 94r27 99r27 104r27 109r27 114r27 119r27 124r27 130r27 140r35
+. 157r36 158r11 184r36 194r31 201r23 210r23 219r23 228r23 237r24 238r20 262r24
+. 286r26
+56A12*Initialization_Vector{18|85A9}<integer> 96r19 8|202r19
+59V13*Random{float} 59>21 8|94b13 97l8 97t14
+59r21 Gen{55R9} 8|94b21 96r22
+60V13*Random{long_float} 60>21 8|99b13 102l8 102t14 169s25 170s25
+60r21 Gen{55R9} 8|99b21 101r22
+63V13*Random{9|49I9} 63>21 8|119b13 122l8 122t14
+63r21 Gen{55R9} 8|119b21 121r46
+64V13*Random{9|61M9} 64>21 8|104b13 107l8 107t14 121s38
+64r21 Gen{55R9} 8|104b21 106r22
+65V13*Random{9|52I9} 65>21 8|114b13 117l8 117t14
+65r21 Gen{55R9} 8|114b21 116r46
+66V13*Random{9|64M9} 66>21 8|109b13 112l8 112t14 116s38
+66r21 Gen{55R9} 8|109b21 111r22
+67V13*Random{integer} 67>21 8|130b13 134l8 134t14
+67r21 Gen{55R9} 8|130b21 133r30
+68V13*Random{long_integer} 68>21 8|124b13 128l8 128t14
+68r21 Gen{55R9} 8|124b21 127r35
+73E12 Result_Subtype 74r21 74r39 77r15 78r15 78r33 78r61 8|80r15 81r15 81r33
+. 81r61 85r16
+74*7 Default_Min{73E12} 77r33 8|80r33 85r32
+75v13*Random_Discrete 76>7 77>7 78>7 8|78b13 88l8 88t23 125r43 131r38
+76r7 Gen{55R9} 8|79b7 87r17
+77*7 Min{73E12} 8|80b7 87r26
+78*7 Max{73E12} 8|81b7 87r31
+82F12 Result_Subtype 83r53 8|140r53 141r61
+83v13*Random_Float 83>27 8|140b13 144l8 144t20
+83r27 Gen{55R9} 8|140b27 143r17
+86V13*Random_Gaussian{long_float} 86>30 8|157b13 182l8 182t23 185s34
+86r30 Gen{55R9} 8|157b30 158r29
+87V13*Random_Gaussian{float} 87>30 8|184b13 188l8 188t23
+87r30 Gen{55R9} 8|184b30 185r51
+91U14*Reset 91<21 8|194b14 198l8 198t13
+91r21 Gen{55R9} 8|194b21 196r14 197m7
+94U14*Reset 95<7 96>7 8|200b14 207l8 207t13
+95r7 Gen{55R9} 8|201b7 205r14 206m7
+96a7 Initiator{56A12} 8|202b7 205r23
+97U14*Reset 98<7 99>7 8|209b14 216l8 216t13
+98r7 Gen{55R9} 8|210b7 214r14 215m7
+99i7 Initiator{9|49I9} 8|211b7 214r23
+100U14*Reset 101<7 102>7 8|218b14 225l8 225t13
+101r7 Gen{55R9} 8|219b7 223r14 224m7
+102m7 Initiator{9|61M9} 8|220b7 223r23
+103U14*Reset 104<7 105>7 8|227b14 234l8 234t13
+104r7 Gen{55R9} 8|228b7 232r14 233m7
+105i7 Initiator{integer} 8|229b7 232r23
+109U14*Reset 109<21 109>42 8|236b14 244l8 244t13
+109r21 Gen{55R9} 8|237b7 241r14 242m7 243m7
+109r42 From_State{55R9} 8|238b7 241r23 242r28 243r28
+113U14*Reset 113<21 113>42 8|261b14 280l8 280t13
+113r21 Gen{55R9} 8|262b7 269r14 272m10 273m10 278m10
+113s42 From_Image{string} 8|263b7 265r32 266r32 269r23 271r10 274r31 276r31
+. 276r54
+114V13*Image{string} 114>20 8|286b13 306l8 306t13
+114r20 Gen{55R9} 8|286b20 291r51 293r10 296r57 299r57
+119N4*Max_Image_Width 8|41r41
+126r7*Rep{18|58R9} 8|87r21 96r26 101r26 106r26 111r26 143r21 196r18 205r18
+. 214r18 223r18 232r18 241r18 241r34 269r18 291r55
+128b7*Have_Gaussian{boolean} 8|163r12 164m12 179m12 197m11 206m11 215m11
+. 224m11 233m11 242m11 242r39 272m14 278m14 293r14
+133f7*Next_Gaussian{long_float} 8|165r19 178m12 243m11 243r39 273m14 296r61
+. 299r61
+X 8 g-rannum.adb
+39N4 Sys_Max_Image_Width 266r51 269r46 291r20 294r18 295r32 298r32 302r18
+41A12 Image_String{string}<integer> 46r22 65r22 287r16
+45U14 Insert_Image 46=7 47>7 48>7 64b14 72l8 72t20 295s10 298s10
+46a7 S{41A12} 65b7 71m7
+47i7 Index{integer} 66b7 71r10 71r19
+48i7 V{9|52I9} 67b7 69r52
+55V13 To_Signed[5|20]{9|49I9} 121s14
+57V13 To_Signed[5|20]{9|52I9} 116s14
+69a7 Image{string} 71r27 71r48
+83V16 F[18|74]{7|73E12} 87s14 19|390b13[8|131]
+125V16 Random_Long_Integer[7|75]{long_integer} 78b13 127s14
+131V16 Random_Integer[7|75]{integer} 78b13 133s14
+141V16 F[18|82]{7|82F12} 143s14
+158r7 G{7|55R9} 163r10 164r10 165r17 169r33 170r33 178r10 179r10
+160f7 V1{long_float} 169m13 171r21 180r37
+160f11 V2{long_float} 170m13 171r31 178r29
+160f15 Rad2{long_float} 171m13 172r23 172r43 177r36 177r44
+160f21 Mult{long_float} 177m10 178r34 180r42
+185f7 V{long_float} 187r36
+246f4 Frac_Scale{long_float} 274r66 297r38
+250V13 Val64{9|52I9} 250>20 256b13 259l8 259t13 274s24 276s24
+250s20 Image{string} 256b20 258r32
+265i7 F0{integer} 269r35 269r41
+266i7 T0{integer} 271r22 274r43 274r53 276r43
+287a7 Result{41A12} 290m7 291m7 294m10 295m24 295r24 298m24 298r24 302m10
+. 305r14
+X 9 interfac.ads
+36K9*Interfaces 7|51w6 51r22 63r45 64r45 65r45 66r45 99r19 102r19 8|104r45
+. 109r45 211r19 220r19 9|175e15
+49I9*Integer_32<integer> 7|63r56 99r30 8|56r49 119r45 211r30
+52I9*Integer_64<long_long_integer> 7|65r56 8|48r15 58r49 67r15 69r34 114r45
+. 250r43 256r43 258r14 296r24 299r24
+61M9*Unsigned_32 7|64r56 102r30 8|56r36 104r56 121r25 220r30
+64M9*Unsigned_64 7|66r56 8|58r36 109r56 116r25
+X 10 system.ads
+37K9*System 7|50r6 57r6 120r6 126r13 8|35r6 35r33 39r38 84r13 141r25 10|196e11
+X 18 s-rannum.ads
+56K16*Random_Numbers 7|50w13 57r13 120r13 126r20 8|35w13 35r40 39r45 84r20
+. 141r32 18|153e26
+58R9*Generator 7|126r35
+62V13*Random{float} 8|96s14
+63V13*Random{long_float} 8|101s14
+66V13*Random{9|61M9} 8|106s14 19|219i21
+67V13*Random{9|64M9} 8|111s14 19|219i21
+74v13*Random_Discrete 8|84r35
+82v13*Random_Float 8|141r47
+85A9*Initialization_Vector(9|61M9)<integer> 7|57r28
+91U14*Reset 8|196s7
+94U14*Reset 8|205s7
+95U14*Reset 8|214s7
+96U14*Reset 8|223s7
+97U14*Reset 8|232s7
+101U14*Reset 8|241s7
+111U14*Reset 8|269s7
+112V13*Image{string} 8|291s44
+117N4*Max_Image_Width 7|120r28 8|39r60
+

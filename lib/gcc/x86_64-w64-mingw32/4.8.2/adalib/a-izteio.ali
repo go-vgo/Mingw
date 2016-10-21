@@ -1,0 +1,80 @@
+V "GNAT Lib v4.8"
+A -gnatwa
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=core2
+A -march=nocona
+P SS ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV SPARK
+
+U ada.integer_wide_wide_text_io%b  a-izteio.ads	88e20c2d NE OL PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.wide_wide_text_io%s  a-ztexio.adb		a-ztexio.ali
+Z ada.wide_wide_text_io.integer_aux%s  a-ztinau.adb  a-ztinau.ali
+W ada.wide_wide_text_io.integer_io%s
+Z system%s		system.ads		system.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.wch_con%s	s-wchcon.adb		s-wchcon.ali
+Z system.wch_wts%s	s-wchwts.adb		s-wchwts.ali
+
+U ada.integer_wide_wide_text_io%s  a-izteio.ads	06bc448e EB NE OL PK
+W ada%s			ada.ads			ada.ali
+W ada.wide_wide_text_io%s  a-ztexio.adb		a-ztexio.ali
+W ada.wide_wide_text_io.integer_io%s
+
+D ada.ads		20070406091342 3ffc8e18
+D a-except.ads		20120716125142 10fcae55
+D a-finali.ads		20111121113556 52ecdc1b
+D a-izteio.ads		20120410054430 88e20c2d
+D a-izteio.ads		20120410054430 88e20c2d
+D a-ioexce.ads		20091130110856 8b9de6cd
+D a-stream.ads		20090409150020 2ca4ee37
+D a-tags.ads		20111212115430 6c0509d0
+D a-unccon.ads		20070406091342 f9eb8f06
+D a-ztexio.ads		20130104124956 b1a2c6bb
+D a-ztinau.ads		20090409150020 06adf469
+D a-ztinio.ads		20070406091342 d1030009
+D a-ztinio.adb		20091130160838 44149f67
+D interfac.ads		20110906094622 129923ea
+D i-cstrea.ads		20130102105938 3286f6aa
+D system.ads		20120723080122 5b069696
+D s-crtl.ads		20130102105938 1ea48bce
+D s-exctab.ads		20090417131548 66e51330
+D s-ficobl.ads		20120709130952 55a71d43
+D s-finmas.ads		20111024091916 b95bb341
+D s-finroo.ads		20120426095924 4ff27390
+D s-parame.ads		20110830140626 b6e20cc0
+D s-pooglo.ads		20110804083314 542f33d0
+D s-secsta.ads		20110830140626 eea35a36
+D s-soflin.ads		20120515094620 24c8153c
+D s-stache.ads		20090417130712 596fc1b4
+D s-stalib.ads		20130104124956 f78bcf95
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152356 afc5dc80
+D s-stopoo.ads		20111013103734 7b8fbeee
+D s-traent.ads		20090417130712 5221ee41
+D s-unstyp.ads		20090409150020 6ae15c76
+D s-wchcon.ads		20090417130712 bfeb2e3d
+D s-wchwts.ads		20090409150020 b3692fb2
+X 1 ada.ads
+16K9*Ada 19e8 5|16r6 18r9 19r7
+X 5 a-izteio.ads
+18K13*Integer_Wide_Wide_Text_IO[12|25] 1|16k9
+X 10 a-ztexio.ads
+52K13*Wide_Wide_Text_IO 5|16w10 19r11 10|497e26
+X 12 a-ztinio.ads
+25k31*Integer_IO 5|19r29 12|60e37
+

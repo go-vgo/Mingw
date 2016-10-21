@@ -1,0 +1,58 @@
+V "GNAT Lib v4.8"
+A -gnatwa
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=core2
+A -march=nocona
+P ZX
+
+RN
+RV NO_DISPATCHING_CALLS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_ELABORATION_CODE
+RV SPARK
+
+U ada.streams%s		a-stream.ads		1358602f EE OL PU PK
+W ada%s			ada.ads			ada.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W system%s		system.ads		system.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-except.ads		20120716125142 10fcae55
+D a-stream.ads		20090409150020 2ca4ee37
+D a-tags.ads		20111212115430 6c0509d0
+D a-unccon.ads		20070406091342 f9eb8f06
+D system.ads		20120723080122 5b069696
+D s-exctab.ads		20090417131548 66e51330
+D s-parame.ads		20110830140626 b6e20cc0
+D s-soflin.ads		20120515094620 24c8153c
+D s-stache.ads		20090417130712 596fc1b4
+D s-stalib.ads		20130104124956 f78bcf95
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152356 afc5dc80
+D s-traent.ads		20090417130712 5221ee41
+X 1 ada.ads
+16K9*Ada 19e8 3|36r9 69r5
+X 3 a-stream.ads
+36K13*Streams 1|16k9 3|69l9 69e16
+39H9*Root_Stream_Type 40r41 54p14 55r23 60p14 61r23 67c9 67e64
+42M9*Stream_Element 52r57
+44I9*Stream_Element_Offset<long_long_integer> 49r7 49r40 52r14 57r20
+48I12*Stream_Element_Count{44I9}
+51A9*Stream_Element_Array(42M9)<44I9> 56r20 62r16
+54x14*Read 55=7 56<7 57<7
+55r7 Stream{39R9}
+56a7 Item{51A9}
+57i7 Last{44I9}
+60x14*Write 61=7 62>7
+61r7 Stream{39R9}
+62a7 Item{51A9}
+

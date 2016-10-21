@@ -1,0 +1,124 @@
+V "GNAT Lib v4.8"
+A -gnatwa
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=core2
+A -march=nocona
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK
+
+U system.unsigned_types%s  s-unstyp.ads		31e7cae0 NE OL PU PK
+W system%s		system.ads		system.ali
+
+D system.ads		20120723080122 5b069696
+D s-unstyp.ads		20090409150020 6ae15c76
+X 1 system.ads
+37K9*System 196e11 2|42r9 210r5
+X 2 s-unstyp.ads
+42K16*Unsigned_Types 1|37k9 2|210l12 210e26
+45M9*Short_Short_Unsigned 96r16 97r32 100r16 101r32 104r16 105r32 108r16
+. 109r32 112r16 113r32
+46M9*Short_Unsigned 116r16 117r32 120r16 121r32 124r16 125r32 128r16 129r32
+. 132r16 133r32
+47M9*Unsigned 136r16 137r32 140r16 141r32 144r16 145r32 148r16 149r32 152r16
+. 153r32
+48M9*Long_Unsigned 156r16 157r32 160r16 161r32 164r16 165r32 168r16 169r32
+. 172r16 173r32
+49M9*Long_Long_Unsigned 176r16 177r32 180r16 181r32 184r16 185r32 188r16
+. 189r32 192r16 193r32
+51M9*Float_Unsigned
+54M9*Packed_Byte 55r8 58r54 60r41
+58A9*Packed_Bytes1(54M9)<integer> 59r8 60r8 67r30 77r30 208r38
+67A9*Packed_Bytes2<58A9><integer> 68r8
+77A9*Packed_Bytes4<58A9><integer> 78r8 92r23 207r38
+87M9*Bits_1
+88M9*Bits_2
+89M9*Bits_4
+92A12*Bytes_F{77A9}<integer>
+95V13*Shift_Left{45M9} 96>7 97>7 195b30
+96m7 Value{45M9}
+97i7 Amount{natural}
+99V13*Shift_Right{45M9} 100>7 101>7 196b30
+100m7 Value{45M9}
+101i7 Amount{natural}
+103V13*Shift_Right_Arithmetic{45M9} 104>7 105>7 197b30
+104m7 Value{45M9}
+105i7 Amount{natural}
+107V13*Rotate_Left{45M9} 108>7 109>7 198b30
+108m7 Value{45M9}
+109i7 Amount{natural}
+111V13*Rotate_Right{45M9} 112>7 113>7 199b30
+112m7 Value{45M9}
+113i7 Amount{natural}
+115V13*Shift_Left{46M9} 116>7 117>7 195b30
+116m7 Value{46M9}
+117i7 Amount{natural}
+119V13*Shift_Right{46M9} 120>7 121>7 196b30
+120m7 Value{46M9}
+121i7 Amount{natural}
+123V13*Shift_Right_Arithmetic{46M9} 124>7 125>7 197b30
+124m7 Value{46M9}
+125i7 Amount{natural}
+127V13*Rotate_Left{46M9} 128>7 129>7 198b30
+128m7 Value{46M9}
+129i7 Amount{natural}
+131V13*Rotate_Right{46M9} 132>7 133>7 199b30
+132m7 Value{46M9}
+133i7 Amount{natural}
+135V13*Shift_Left{47M9} 136>7 137>7 195b30
+136m7 Value{47M9}
+137i7 Amount{natural}
+139V13*Shift_Right{47M9} 140>7 141>7 196b30
+140m7 Value{47M9}
+141i7 Amount{natural}
+143V13*Shift_Right_Arithmetic{47M9} 144>7 145>7 197b30
+144m7 Value{47M9}
+145i7 Amount{natural}
+147V13*Rotate_Left{47M9} 148>7 149>7 198b30
+148m7 Value{47M9}
+149i7 Amount{natural}
+151V13*Rotate_Right{47M9} 152>7 153>7 199b30
+152m7 Value{47M9}
+153i7 Amount{natural}
+155V13*Shift_Left{48M9} 156>7 157>7 195b30
+156m7 Value{48M9}
+157i7 Amount{natural}
+159V13*Shift_Right{48M9} 160>7 161>7 196b30
+160m7 Value{48M9}
+161i7 Amount{natural}
+163V13*Shift_Right_Arithmetic{48M9} 164>7 165>7 197b30
+164m7 Value{48M9}
+165i7 Amount{natural}
+167V13*Rotate_Left{48M9} 168>7 169>7 198b30
+168m7 Value{48M9}
+169i7 Amount{natural}
+171V13*Rotate_Right{48M9} 172>7 173>7 199b30
+172m7 Value{48M9}
+173i7 Amount{natural}
+175V13*Shift_Left{49M9} 176>7 177>7 195b30
+176m7 Value{49M9}
+177i7 Amount{natural}
+179V13*Shift_Right{49M9} 180>7 181>7 196b30
+180m7 Value{49M9}
+181i7 Amount{natural}
+183V13*Shift_Right_Arithmetic{49M9} 184>7 185>7 197b30
+184m7 Value{49M9}
+185i7 Amount{natural}
+187V13*Rotate_Left{49M9} 188>7 189>7 198b30
+188m7 Value{49M9}
+189i7 Amount{natural}
+191V13*Rotate_Right{49M9} 192>7 193>7 199b30
+192m7 Value{49M9}
+193i7 Amount{natural}
+207A12*Packed_Bytes{77A9}<integer>
+208A12*Packed_Bytes_Unaligned{58A9}<integer>
+

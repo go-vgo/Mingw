@@ -1,0 +1,100 @@
+V "GNAT Lib v4.8"
+A -gnatwa
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=core2
+A -march=nocona
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK
+
+U interfaces%s		interfac.ads		129923ea NE OL PU PK
+
+D interfac.ads		20110906094622 129923ea
+D system.ads		20120723080122 5b069696
+X 1 interfac.ads
+36K9*Interfaces 175l5 175e15
+43I9*Integer_8<short_short_integer> 44r8
+46I9*Integer_16<short_integer> 47r8
+49I9*Integer_32<integer> 50r8
+52I9*Integer_64<long_long_integer> 53r8
+55M9*Unsigned_8 56r8 68r16 69r32 72r16 73r32 76r16 77r32 80r16 81r32 84r16
+. 85r32
+58M9*Unsigned_16 59r8 88r16 89r32 92r16 93r32 96r16 97r32 100r16 101r32 104r16
+. 105r32
+61M9*Unsigned_32 62r8 108r16 109r32 112r16 113r32 116r16 117r32 120r16 121r32
+. 124r16 125r32
+64M9*Unsigned_64 65r8 128r16 129r32 132r16 133r32 136r16 137r32 140r16 141r32
+. 144r16 145r32
+67V13*Shift_Left{55M9} 68>7 69>7 147b30
+68m7 Value{55M9}
+69i7 Amount{natural}
+71V13*Shift_Right{55M9} 72>7 73>7 148b30
+72m7 Value{55M9}
+73i7 Amount{natural}
+75V13*Shift_Right_Arithmetic{55M9} 76>7 77>7 149b30
+76m7 Value{55M9}
+77i7 Amount{natural}
+79V13*Rotate_Left{55M9} 80>7 81>7 150b30
+80m7 Value{55M9}
+81i7 Amount{natural}
+83V13*Rotate_Right{55M9} 84>7 85>7 151b30
+84m7 Value{55M9}
+85i7 Amount{natural}
+87V13*Shift_Left{58M9} 88>7 89>7 147b30
+88m7 Value{58M9}
+89i7 Amount{natural}
+91V13*Shift_Right{58M9} 92>7 93>7 148b30
+92m7 Value{58M9}
+93i7 Amount{natural}
+95V13*Shift_Right_Arithmetic{58M9} 96>7 97>7 149b30
+96m7 Value{58M9}
+97i7 Amount{natural}
+99V13*Rotate_Left{58M9} 100>7 101>7 150b30
+100m7 Value{58M9}
+101i7 Amount{natural}
+103V13*Rotate_Right{58M9} 104>7 105>7 151b30
+104m7 Value{58M9}
+105i7 Amount{natural}
+107V13*Shift_Left{61M9} 108>7 109>7 147b30
+108m7 Value{61M9}
+109i7 Amount{natural}
+111V13*Shift_Right{61M9} 112>7 113>7 148b30
+112m7 Value{61M9}
+113i7 Amount{natural}
+115V13*Shift_Right_Arithmetic{61M9} 116>7 117>7 149b30
+116m7 Value{61M9}
+117i7 Amount{natural}
+119V13*Rotate_Left{61M9} 120>7 121>7 150b30
+120m7 Value{61M9}
+121i7 Amount{natural}
+123V13*Rotate_Right{61M9} 124>7 125>7 151b30
+124m7 Value{61M9}
+125i7 Amount{natural}
+127V13*Shift_Left{64M9} 128>7 129>7 147b30
+128m7 Value{64M9}
+129i7 Amount{natural}
+131V13*Shift_Right{64M9} 132>7 133>7 148b30
+132m7 Value{64M9}
+133i7 Amount{natural}
+135V13*Shift_Right_Arithmetic{64M9} 136>7 137>7 149b30
+136m7 Value{64M9}
+137i7 Amount{natural}
+139V13*Rotate_Left{64M9} 140>7 141>7 150b30
+140m7 Value{64M9}
+141i7 Amount{natural}
+143V13*Rotate_Right{64M9} 144>7 145>7 151b30
+144m7 Value{64M9}
+145i7 Amount{natural}
+160F9*IEEE_Float_32<short_float> 161r45
+163F9*IEEE_Float_64<long_float> 164r45
+173F9*IEEE_Extended_Float<long_long_float>
+

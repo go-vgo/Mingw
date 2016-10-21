@@ -1,0 +1,45 @@
+V "GNAT Lib v4.8"
+A -gnatwa
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=core2
+A -march=nocona
+P ZX
+
+RN
+RV NO_RECURSION
+RV SPARK
+
+U system.img_int%b	s-imgint.adb		b012ff50 NE OL PK
+W system%s		system.ads		system.ali
+
+U system.img_int%s	s-imgint.ads		59dd7654 NE OL PU PK
+W system%s		system.ads		system.ali
+
+D system.ads		20120723080122 5b069696
+D s-imgint.ads		20090409150020 02dbe0c2
+D s-imgint.adb		20090409150020 b2c91f92
+X 1 system.ads
+37K9*System 196e11 2|36r9 57r5 3|32r14 122r5
+X 2 s-imgint.ads
+36K16*Img_Int 1|37k9 2|57l12 57e19 3|32b21 122l12 122t19
+39U14*Image_Integer 40>7 41=7 42<7 3|38b14 78l8 78t21
+40i7 V{integer} 3|39b7 71r10 73r23 76r22
+41s7 S{string} 3|40b7 43r22 59m13 62m13 72m10 75m10
+42i7 P{natural} 3|41b7 58m13 58r18 59r16 61m13 61r18 62r16 69m7 72r13 75r13
+47U14*Set_Image_Integer 48>7 49=7 50=7 3|84b14 120l8 120t25
+48i7 V{integer} 3|85b7 113r10 114r23 118r22
+49s7 S{string} 3|86b7 103m13 106m13 117m10
+50i7 P{natural} 3|87b7 102m13 102r18 103r16 105m13 105r18 106r16 116m10 116r15
+. 117r13
+X 3 s-imgint.adb
+45U17 Set_Digits 45>29 54b17 57s13 64l11 64t21 73s10 76s10
+45i29 T{integer} 54b29 56r13 57r25 59r43 62r42
+89U17 Set_Digits 89>29 98b17 101s13 108l11 108t21 114s10 118s10
+89i29 T{integer} 98b29 100r13 101r25 103r43 106r42
+

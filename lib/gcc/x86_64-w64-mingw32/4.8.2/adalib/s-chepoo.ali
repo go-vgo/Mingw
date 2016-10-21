@@ -1,0 +1,72 @@
+V "GNAT Lib v4.8"
+A -gnatwa
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=core2
+A -march=nocona
+P ZX
+
+RN
+RV NO_DISPATCHING_CALLS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_ELABORATION_CODE
+RV SPARK
+
+U system.checked_pools%s  s-chepoo.ads		a14562fd EE OL PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W system%s		system.ads		system.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-except.ads		20120716125142 10fcae55
+D a-finali.ads		20111121113556 52ecdc1b
+D a-stream.ads		20090409150020 2ca4ee37
+D a-tags.ads		20111212115430 6c0509d0
+D a-unccon.ads		20070406091342 f9eb8f06
+D system.ads		20120723080122 5b069696
+D s-chepoo.ads		20130104091430 7b01371d
+D s-exctab.ads		20090417131548 66e51330
+D s-finroo.ads		20120426095924 4ff27390
+D s-parame.ads		20110830140626 b6e20cc0
+D s-soflin.ads		20120515094620 24c8153c
+D s-stache.ads		20090417130712 596fc1b4
+D s-stalib.ads		20130104124956 f78bcf95
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152356 afc5dc80
+D s-stopoo.ads		20111013103734 7b8fbeee
+D s-traent.ads		20090417130712 5221ee41
+X 3 a-finali.ads
+58U14*Initialize<10|44p14>
+59U14*Finalize<10|43p14>
+X 7 system.ads
+37K9*System 196e11 8|32r6 33r6 35r9 38r10 46r34 47r34 58r10 59r5
+64M9*Address 8|45r34
+X 8 s-chepoo.ads
+35K16*Checked_Pools 7|37k9 8|59l12 59e25
+37H9*Checked_Pool<17|42R9> 3|58P14 59P14 8|43p14 44r41 57c9 58e65 10|42p14
+. 17|45p14 52p14 59p13
+43x14*Dereference 44=7 45>7 46>7 47>7
+44r7 Pool{37R9}
+45m7 Storage_Address{7|64M9}
+46i7 Size_In_Storage_Elements{15|62I12}
+47i7 Alignment{15|62I12}
+X 10 s-finroo.ads
+42U14*Adjust
+X 15 s-stoele.ads
+42K16*Storage_Elements 8|32w13 46r41 47r41 15|117e28
+54I9*Storage_Offset<long_long_integer>
+62I12*Storage_Count{54I9} 8|46r58 47r58
+X 17 s-stopoo.ads
+39K16*Storage_Pools 8|33w13 38r17 58r17 17|99e25
+42H9*Root_Storage_Pool<3|55R9> 8|38r31 58r31 17|66e62
+45x14*Allocate
+52x14*Deallocate
+59y13*Storage_Size{15|62I12}
+

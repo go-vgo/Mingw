@@ -1,0 +1,108 @@
+V "GNAT Lib v4.8"
+A -gnatwa
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=core2
+A -march=nocona
+P SS ZX
+
+RN
+RV NO_SECONDARY_STACK
+RV SPARK
+
+U ada.wide_characters.handling%b  a-wichha.adb	ff2c5091 NE OL PK
+W ada%s			ada.ads			ada.ali
+W ada.wide_characters%s	a-widcha.ads		a-widcha.ali
+W ada.wide_characters.unicode%s  a-wichun.adb	a-wichun.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U ada.wide_characters.handling%s  a-wichha.ads	c2a97ea6 BN NE OL PU PK
+W ada.wide_characters%s	a-widcha.ads		a-widcha.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-unccon.ads		20070406091342 f9eb8f06
+D a-widcha.ads		20091030133032 a2b85d3d
+D a-wichha.ads		20120410054430 6011239b
+D a-wichha.adb		20130104124956 d9e86744
+D a-wichun.ads		20130104124956 46d5144e
+D system.ads		20120723080122 5b069696
+D s-secsta.ads		20110830140626 eea35a36
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152356 afc5dc80
+D s-utf_32.ads		20130104124956 8520a630
+X 1 ada.ads
+16K9*Ada 19e8 4|16r9 125r5 5|32r6 32r39 34r14 59r14 86r14 93r14 109r14 116r14
+. 123r14 130r14 155r14 173r14 186r5
+X 3 a-widcha.ads
+19K13*Wide_Characters 1|16k9 3|21e24 4|16r13 125r9 5|32r10 32r43 34r18 59r18
+. 86r18 93r18 109r18 116r18 123r18 130r18 155r18 173r18 186r9
+X 4 a-wichha.ads
+16K29*Handling 3|19k13 4|125l25 125e33 5|34b34 186l25 186t33
+23V13*Is_Control{boolean} 23>25 24r19 5|49b13 52l8 52t18
+23e25 Item{wide_character} 5|49b25 51r28
+28V13*Is_Letter{boolean} 28>24 29r19 5|42s14 85b13
+28e24 Item{wide_character} 5|85b24
+34V13*Is_Lower{boolean} 34>23 35r19 5|99b13 102l8 102t16
+34e23 Item{wide_character} 5|99b23 101r28
+39V13*Is_Upper{boolean} 39>23 40r19 5|145b13 148l8 148t16
+39e23 Item{wide_character} 5|145b23 147r28
+44V13*Is_Digit{boolean} 44>23 45r19 50r14 5|42s39 58b13 76s14
+44e23 Item{wide_character} 5|58b23
+49V13*Is_Decimal_Digit=50:14{boolean}
+49e31 Item{wide_character}
+52V13*Is_Hexadecimal_Digit{boolean} 52>35 5|74b13 79l8 79t28
+52e35 Item{wide_character} 5|74b35 76r24 77r17 78r17
+57V13*Is_Alphanumeric{boolean} 57>30 58r19 5|40b13 43l8 43t23 138s45
+57e30 Item{wide_character} 5|40b30 42r25 42r49
+63V13*Is_Special{boolean} 63>25 64r19 5|136b13 139l8 139t18
+63e25 Item{wide_character} 5|136b25 138r26 138r62
+70V13*Is_Line_Terminator{boolean} 70>33 71r19 5|92b13
+70e33 Item{wide_character} 5|92b33
+76V13*Is_Mark{boolean} 76>22 77r19 5|108b13
+76e22 Item{wide_character} 5|108b22
+81V13*Is_Other{boolean} 81>23 82r19 5|115b13
+81e23 Item{wide_character} 5|115b23
+86V13*Is_Punctuation{boolean} 86>29 87r19 5|122b13
+86e29 Item{wide_character} 5|122b29
+91V13*Is_Space{boolean} 91>23 92r19 5|129b13
+91e23 Item{wide_character} 5|129b23
+96V13*Is_Graphic{boolean} 96>25 97r19 5|65b13 68l8 68t18 138s14
+96e25 Item{wide_character} 5|65b25 67r34
+101V13*To_Lower{wide_character} 101>23 102r19 5|154b13 162s24
+101e23 Item{wide_character} 5|154b23
+107V13*To_Lower{wide_string} 107>23 5|157b13 166l8 166t16
+107s23 Item{wide_string} 5|157b23 158r29 162r34
+113V13*To_Upper{wide_character} 113>23 114r19 5|172b13 180s24
+113e23 Item{wide_character} 5|172b23
+119V13*To_Upper{wide_string} 119>23 5|175b13 184l8 184t16
+119s23 Item{wide_string} 5|175b23 176r29 180r34
+X 5 a-wichha.adb
+158a7 Result{wide_string} 161r16 162m10 165r14
+161i11 J{integer} 162r18 162r40
+176a7 Result{wide_string} 179r16 180m10 183r14
+179i11 J{integer} 180r18 180r40
+X 6 a-wichun.ads
+39K29*Unicode 5|32w26 32r59 59r34 86r34 93r34 109r34 116r34 123r34 130r34
+. 155r34 173r34 6|197e32
+46E9*Category<11|56E9>
+79V13*Get_Category{46E9} 5|51s14 101s14 147s14
+93V13*Is_Letter{boolean} 5|86r42
+105V13*Is_Digit{boolean} 5|59r42
+112V13*Is_Line_Terminator{boolean} 5|93r42
+120V13*Is_Mark{boolean} 5|109r42
+129V13*Is_Other{boolean} 5|116r42
+138V13*Is_Punctuation{boolean} 5|123r42
+146V13*Is_Space{boolean} 5|130r42
+153V13*Is_Non_Graphic{boolean} 5|67s18
+183V13*To_Lower_Case{wide_character} 5|155r42
+190V13*To_Upper_Case{wide_character} 5|173r42
+X 11 s-utf_32.ads
+57n6*Cc{56E9} 5|51r36
+62n6*Ll{56E9} 5|101r36
+66n6*Lu{56E9} 5|147r36
+

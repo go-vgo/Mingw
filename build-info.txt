@@ -1,0 +1,310 @@
+
+# **************************************************************************
+
+version : MinGW-W64-builds-4.2.0
+user    : niXman
+date    : 01.06.2014- 6:23:33 AM
+args    : --mode=gcc-4.8.2 --buildroot=/c/mingw482 --buildroot=/c/mingw482 --rev=2 --rt-version=v3 --jobs=2 --bootstrap --threads=posix --exceptions=seh --arch=x86_64 --bin-compress
+PATH    : .:/usr/local/bin:/usr/bin:/c/Windows/system32:/c/Windows:/c/Windows/System32/Wbem:/c/Windows/System32/WindowsPowerShell/v1.0
+
+# **************************************************************************
+
+host gcc 32-bit:
+Using built-in specs.
+COLLECT_GCC=D:\msys64\home\niXman\mingw-builds\toolchains\mingw32\bin\gcc.exe
+COLLECT_LTO_WRAPPER=d:/msys64/home/nixman/mingw-builds/toolchains/mingw32/bin/../libexec/gcc/i686-w64-mingw32/4.8.2/lto-wrapper.exe
+Target: i686-w64-mingw32
+Configured with: ../../../src/gcc-4.8.2/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/tmp/i686-482-posix-dwarf-rt_v3-r0/mingw32 --enable-shared --enable-static --disable-multilib --enable-languages=ada,c,c++,fortran,objc,obj-c++,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-sjlj-exceptions --with-dwarf2 --disable-isl-version-check --disable-cloog-version-check --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/tmp/prerequisites/i686-w64-mingw32-static --with-mpfr=/tmp/prerequisites/i686-w64-mingw32-static --with-mpc=/tmp/prerequisites/i686-w64-mingw32-static --with-isl=/tmp/prerequisites/i686-w64-mingw32-static --with-cloog=/tmp/prerequisites/i686-w64-mingw32-static --enable-cloog-backend=isl --with-pkgversion='rev0, Built by MinGW-W64 project' --with-bugurl=http://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -I/tmp/i686-482-posix-dwarf-rt_v3-r0/mingw32/opt/include -I/tmp/prerequisites/i686-zlib-static/include -I/tmp/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -I/tmp/i686-482-posix-dwarf-rt_v3-r0/mingw32/opt/include -I/tmp/prerequisites/i686-zlib-static/include -I/tmp/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS= LDFLAGS='-pipe -L/tmp/i686-482-posix-dwarf-rt_v3-r0/mingw32/opt/lib -L/tmp/prerequisites/i686-zlib-static/lib -L/tmp/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware'
+Thread model: posix
+gcc version 4.8.2 (rev0, Built by MinGW-W64 project) 
+
+# **************************************************************************
+
+host gcc 64-bit:
+Using built-in specs.
+COLLECT_GCC=D:\msys64\home\niXman\mingw-builds\toolchains\mingw64\bin\gcc.exe
+COLLECT_LTO_WRAPPER=d:/msys64/home/nixman/mingw-builds/toolchains/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/4.8.2/lto-wrapper.exe
+Target: x86_64-w64-mingw32
+Configured with: ../../../src/gcc-4.8.2/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/tmp/x86_64-482-posix-seh-rt_v3-r0/mingw64 --enable-shared --enable-static --disable-multilib --enable-languages=ada,c,c++,fortran,objc,obj-c++,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-isl-version-check --disable-cloog-version-check --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/tmp/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/tmp/prerequisites/x86_64-w64-mingw32-static --with-mpc=/tmp/prerequisites/x86_64-w64-mingw32-static --with-isl=/tmp/prerequisites/x86_64-w64-mingw32-static --with-cloog=/tmp/prerequisites/x86_64-w64-mingw32-static --enable-cloog-backend=isl --with-pkgversion='rev0, Built by MinGW-W64 project' --with-bugurl=http://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -I/tmp/x86_64-482-posix-seh-rt_v3-r0/mingw64/opt/include -I/tmp/prerequisites/x86_64-zlib-static/include -I/tmp/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -I/tmp/x86_64-482-posix-seh-rt_v3-r0/mingw64/opt/include -I/tmp/prerequisites/x86_64-zlib-static/include -I/tmp/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS= LDFLAGS='-pipe -L/tmp/x86_64-482-posix-seh-rt_v3-r0/mingw64/opt/lib -L/tmp/prerequisites/x86_64-zlib-static/lib -L/tmp/prerequisites/x86_64-w64-mingw32-static/lib '
+Thread model: posix
+gcc version 4.8.2 (rev0, Built by MinGW-W64 project) 
+
+# **************************************************************************
+
+host ld:
+GNU ld (GNU Binutils) 2.23.2
+  Supported emulations:
+   i386pe
+
+# **************************************************************************
+
+name         : x86_64-libiconv-static
+type         : .tar.gz
+version      : 1.14
+url          : http://ftp.gnu.org/pub/gnu/libiconv/libiconv-1.14.tar.gz
+patches      : 
+configuration: --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/c/mingw482/prerequisites/x86_64-libiconv-static --enable-static --disable-shared CFLAGS="-O2 -pipe -I/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/include -I/c/mingw482/prerequisites/x86_64-zlib-static/include -I/c/mingw482/prerequisites/x86_64-w64-mingw32-static/include" CXXFLAGS="-O2 -pipe -I/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/include -I/c/mingw482/prerequisites/x86_64-zlib-static/include -I/c/mingw482/prerequisites/x86_64-w64-mingw32-static/include" CPPFLAGS="" LDFLAGS="-pipe -L/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/lib -L/c/mingw482/prerequisites/x86_64-zlib-static/lib -L/c/mingw482/prerequisites/x86_64-w64-mingw32-static/lib"
+
+# **************************************************************************
+
+name         : -zlib-1.2.8-static
+type         : .tar.gz
+version      : 1.2.8
+url          : http://sourceforge.net/projects/libpng/files/zlib/1.2.8/zlib-1.2.8.tar.gz
+patches      : zlib/01-zlib-1.2.7-1-buildsys.mingw.patch, zlib/02-no-undefined.mingw.patch, zlib/03-dont-put-sodir-into-L.mingw.patch, zlib/04-wrong-w8-check.mingw.patch, zlib/05-fix-a-typo.mingw.patch
+configuration: --prefix=/c/mingw482/prerequisites/-zlib-static --static
+
+# **************************************************************************
+
+name         : x86_64-gmp-5.1.3-static
+type         : .tar.bz2
+version      : 5.1.3
+url          : ftp://ftp.gmplib.org/pub/gmp-5.1.3/gmp-5.1.3.tar.bz2
+patches      : 
+configuration: --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/c/mingw482/prerequisites/x86_64-w64-mingw32-static --enable-static --disable-shared --enable-cxx CFLAGS="-O2 -pipe -I/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/include -I/c/mingw482/prerequisites/x86_64-zlib-static/include -I/c/mingw482/prerequisites/x86_64-w64-mingw32-static/include" CXXFLAGS="-O2 -pipe -I/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/include -I/c/mingw482/prerequisites/x86_64-zlib-static/include -I/c/mingw482/prerequisites/x86_64-w64-mingw32-static/include" CPPFLAGS="" LDFLAGS="-pipe -L/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/lib -L/c/mingw482/prerequisites/x86_64-zlib-static/lib -L/c/mingw482/prerequisites/x86_64-w64-mingw32-static/lib"
+
+# **************************************************************************
+
+name         : x86_64-mpfr-3.1.2-static
+type         : .tar.bz2
+version      : 3.1.2
+url          : ftp://ftp.gnu.org/gnu/mpfr/mpfr-3.1.2.tar.bz2
+patches      : mpfr/mpfr-3.1.2-p1.patch, mpfr/mpfr-3.1.2-p2.patch, mpfr/mpfr-3.1.2-p3.patch, mpfr/mpfr-3.1.2-p4.patch, mpfr/mpfr-3.1.2-p5.patch
+configuration: --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/c/mingw482/prerequisites/x86_64-w64-mingw32-static --enable-static --disable-shared --with-gmp=/c/mingw482/prerequisites/x86_64-w64-mingw32-static CFLAGS="-O2 -pipe -I/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/include -I/c/mingw482/prerequisites/x86_64-zlib-static/include -I/c/mingw482/prerequisites/x86_64-w64-mingw32-static/include" CXXFLAGS="-O2 -pipe -I/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/include -I/c/mingw482/prerequisites/x86_64-zlib-static/include -I/c/mingw482/prerequisites/x86_64-w64-mingw32-static/include" CPPFLAGS="" LDFLAGS="-pipe -L/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/lib -L/c/mingw482/prerequisites/x86_64-zlib-static/lib -L/c/mingw482/prerequisites/x86_64-w64-mingw32-static/lib"
+
+# **************************************************************************
+
+name         : x86_64-mpc-1.0.1-static
+type         : .tar.gz
+version      : 1.0.1
+url          : http://www.multiprecision.org/mpc/download/mpc-1.0.1.tar.gz
+patches      : 
+configuration: --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/c/mingw482/prerequisites/x86_64-w64-mingw32-static --enable-static --disable-shared --with-gmp=/c/mingw482/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/mingw482/prerequisites/x86_64-w64-mingw32-static CFLAGS="-O2 -pipe -I/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/include -I/c/mingw482/prerequisites/x86_64-zlib-static/include -I/c/mingw482/prerequisites/x86_64-w64-mingw32-static/include" CXXFLAGS="-O2 -pipe -I/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/include -I/c/mingw482/prerequisites/x86_64-zlib-static/include -I/c/mingw482/prerequisites/x86_64-w64-mingw32-static/include" CPPFLAGS="" LDFLAGS="-pipe -L/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/lib -L/c/mingw482/prerequisites/x86_64-zlib-static/lib -L/c/mingw482/prerequisites/x86_64-w64-mingw32-static/lib"
+
+# **************************************************************************
+
+name         : x86_64-isl-0.12.1-static
+type         : .tar.lzma
+version      : 0.12.1
+url          : http://ftp.cross-lfs.org/pub/clfs/conglomeration/isl/isl-0.12.1.tar.lzma
+patches      : isl/isl-0.12-no-undefined.patch
+configuration: --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/c/mingw482/prerequisites/x86_64-w64-mingw32-static --enable-static --disable-shared --with-gmp-prefix=/c/mingw482/prerequisites/x86_64-w64-mingw32-static CFLAGS="-O2 -pipe -I/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/include -I/c/mingw482/prerequisites/x86_64-zlib-static/include -I/c/mingw482/prerequisites/x86_64-w64-mingw32-static/include" CXXFLAGS="-O2 -pipe -I/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/include -I/c/mingw482/prerequisites/x86_64-zlib-static/include -I/c/mingw482/prerequisites/x86_64-w64-mingw32-static/include" CPPFLAGS="" LDFLAGS="-pipe -L/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/lib -L/c/mingw482/prerequisites/x86_64-zlib-static/lib -L/c/mingw482/prerequisites/x86_64-w64-mingw32-static/lib"
+
+# **************************************************************************
+
+name         : x86_64-cloog-0.18.1-static
+type         : .tar.gz
+version      : 0.18.1
+url          : http://www.bastoul.net/cloog/pages/download/count.php3?url=./cloog-0.18.1.tar.gz
+patches      : cloog/cloog-0.18.1-no-undefined.patch
+configuration: --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/c/mingw482/prerequisites/x86_64-w64-mingw32-static --enable-static --disable-shared --with-gmp-prefix=/c/mingw482/prerequisites/x86_64-w64-mingw32-static --with-bits=gmp --with-isl=system --with-isl-prefix=/c/mingw482/prerequisites/x86_64-w64-mingw32-static CFLAGS="-O2 -pipe -I/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/include -I/c/mingw482/prerequisites/x86_64-zlib-static/include -I/c/mingw482/prerequisites/x86_64-w64-mingw32-static/include" CXXFLAGS="-O2 -pipe -I/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/include -I/c/mingw482/prerequisites/x86_64-zlib-static/include -I/c/mingw482/prerequisites/x86_64-w64-mingw32-static/include" CPPFLAGS="" LDFLAGS="-pipe -L/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/lib -L/c/mingw482/prerequisites/x86_64-zlib-static/lib -L/c/mingw482/prerequisites/x86_64-w64-mingw32-static/lib"
+
+# **************************************************************************
+
+name         : x86_64-mingw-w64-headers-v3-nomulti
+type         : svn
+revision     : 6432
+url          : svn://svn.code.sf.net/p/mingw-w64/code/stable/v3.x/mingw-w64-headers
+patches      : mingw-w64/6303.patch
+configuration: --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/c/mingw482/runtime/x86_64-mingw-w64-v3-nomulti --enable-sdk=all --enable-secure-api CFLAGS="-O2 -pipe -I/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/include -I/c/mingw482/prerequisites/x86_64-zlib-static/include -I/c/mingw482/prerequisites/x86_64-w64-mingw32-static/include" CXXFLAGS="-O2 -pipe -I/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/include -I/c/mingw482/prerequisites/x86_64-zlib-static/include -I/c/mingw482/prerequisites/x86_64-w64-mingw32-static/include" CPPFLAGS="" LDFLAGS="-pipe -L/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/lib -L/c/mingw482/prerequisites/x86_64-zlib-static/lib -L/c/mingw482/prerequisites/x86_64-w64-mingw32-static/lib"
+
+# **************************************************************************
+
+name         : x86_64-mingw-w64-crt-v3-nomulti
+type         : svn
+revision     : 6432
+url          : svn://svn.code.sf.net/p/mingw-w64/code/stable/v3.x/mingw-w64-crt
+patches      : mingw-w64/6332.patch, mingw-w64/6385.patch, mingw-w64/6386.patch, mingw-w64/6390.patch
+configuration: --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/c/mingw482/runtime/x86_64-mingw-w64-v3-nomulti --with-sysroot=/c/mingw482/runtime/x86_64-mingw-w64-v3-nomulti --disable-lib32 --enable-lib64 --enable-wildcard CFLAGS="-O2 -pipe -I/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/include -I/c/mingw482/prerequisites/x86_64-zlib-static/include -I/c/mingw482/prerequisites/x86_64-w64-mingw32-static/include" CXXFLAGS="-O2 -pipe -I/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/include -I/c/mingw482/prerequisites/x86_64-zlib-static/include -I/c/mingw482/prerequisites/x86_64-w64-mingw32-static/include" CPPFLAGS="" LDFLAGS="-pipe -L/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/lib -L/c/mingw482/prerequisites/x86_64-zlib-static/lib -L/c/mingw482/prerequisites/x86_64-w64-mingw32-static/lib"
+
+# **************************************************************************
+
+name         : -winpthreads-v3
+type         : svn
+revision     : 6432
+url          : svn://svn.code.sf.net/p/mingw-w64/code/stable/v3.x/mingw-w64-libraries/winpthreads
+patches      : 
+configuration: --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/c/mingw482/runtime/-winpthreads-v3 --enable-shared --enable-static CFLAGS="-O2 -pipe -I/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/include -I/c/mingw482/prerequisites/x86_64-zlib-static/include -I/c/mingw482/prerequisites/x86_64-w64-mingw32-static/include" CXXFLAGS="-O2 -pipe -I/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/include -I/c/mingw482/prerequisites/x86_64-zlib-static/include -I/c/mingw482/prerequisites/x86_64-w64-mingw32-static/include" CPPFLAGS="" LDFLAGS="-pipe -L/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/lib -L/c/mingw482/prerequisites/x86_64-zlib-static/lib -L/c/mingw482/prerequisites/x86_64-w64-mingw32-static/lib"
+
+# **************************************************************************
+
+name         : x86_64-binutils-2.24-nomulti
+type         : .tar.bz2
+version      : 2.24
+url          : ftp://mirrors.kernel.org/sources.redhat.com/binutils/releases/binutils-2.24.tar.bz2
+patches      : 
+configuration: --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/c/mingw482/prerequisites/x86_64-binutils-nomulti --with-sysroot=/c/mingw482/runtime/x86_64-mingw-w64-nomulti --disable-multilib --enable-lto --with-libiconv-prefix=/c/mingw482/prerequisites/libiconv-x86_64 --disable-rpath --disable-nls --enable-shared --enable-static CFLAGS="-O2 -pipe -I/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/include -I/c/mingw482/prerequisites/x86_64-zlib-static/include -I/c/mingw482/prerequisites/x86_64-w64-mingw32-static/include" CXXFLAGS="-O2 -pipe -I/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/include -I/c/mingw482/prerequisites/x86_64-zlib-static/include -I/c/mingw482/prerequisites/x86_64-w64-mingw32-static/include" CPPFLAGS="" LDFLAGS="-pipe -L/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/lib -L/c/mingw482/prerequisites/x86_64-zlib-static/lib -L/c/mingw482/prerequisites/x86_64-w64-mingw32-static/lib "
+
+# **************************************************************************
+
+name         : gcc-4.8.2
+type         : .tar.bz2
+version      : 4.8.2
+url          : ftp://ftp.fu-berlin.de/unix/languages/gcc/releases/gcc-4.8.2/gcc-4.8.2.tar.bz2
+patches      : gcc/gcc-4.7-stdthreads.patch, gcc/gcc-4.8-iconv.patch, gcc/gcc-4.8-libstdc++export.patch, gcc/gcc-4.8.1-fix-dw2.patch
+configuration: --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64 --with-gxx-include-dir=/mingw64/x86_64-w64-mingw32/include/c++ --enable-shared --enable-static --disable-multilib --enable-languages=ada,c,c++,fortran,objc,obj-c++,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-isl-version-check --disable-cloog-version-check --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/mingw482/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/mingw482/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/mingw482/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/mingw482/prerequisites/x86_64-w64-mingw32-static --with-cloog=/c/mingw482/prerequisites/x86_64-w64-mingw32-static --enable-cloog-backend=isl --with-pkgversion="x86_64-posix-seh, Built by MinGW-W64 project" --with-bugurl=http://sourceforge.net/projects/mingw-w64 CFLAGS="-O2 -pipe -I/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/include -I/c/mingw482/prerequisites/x86_64-zlib-static/include -I/c/mingw482/prerequisites/x86_64-w64-mingw32-static/include" CXXFLAGS="-O2 -pipe -I/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/include -I/c/mingw482/prerequisites/x86_64-zlib-static/include -I/c/mingw482/prerequisites/x86_64-w64-mingw32-static/include" CPPFLAGS="" LDFLAGS="-pipe -L/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/lib -L/c/mingw482/prerequisites/x86_64-zlib-static/lib -L/c/mingw482/prerequisites/x86_64-w64-mingw32-static/lib "
+
+# **************************************************************************
+
+name         : libmangle-v3
+type         : svn
+revision     : 6432
+url          : svn://svn.code.sf.net/p/mingw-w64/code/stable/v3.x/mingw-w64-libraries/libmangle
+patches      : 
+configuration: --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64 CFLAGS="-O2 -pipe -I/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/include -I/c/mingw482/prerequisites/x86_64-zlib-static/include -I/c/mingw482/prerequisites/x86_64-w64-mingw32-static/include" CXXFLAGS="-O2 -pipe -I/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/include -I/c/mingw482/prerequisites/x86_64-zlib-static/include -I/c/mingw482/prerequisites/x86_64-w64-mingw32-static/include" CPPFLAGS="" LDFLAGS="-pipe -L/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/lib -L/c/mingw482/prerequisites/x86_64-zlib-static/lib -L/c/mingw482/prerequisites/x86_64-w64-mingw32-static/lib"
+
+# **************************************************************************
+
+name         : gendef-v3
+type         : svn
+revision     : 6432
+url          : svn://svn.code.sf.net/p/mingw-w64/code/stable/v3.x/mingw-w64-tools/gendef
+patches      : 
+configuration: --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64 --with-mangle=/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64 CFLAGS="-O2 -pipe -I/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/include -I/c/mingw482/prerequisites/x86_64-zlib-static/include -I/c/mingw482/prerequisites/x86_64-w64-mingw32-static/include" CXXFLAGS="-O2 -pipe -I/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/include -I/c/mingw482/prerequisites/x86_64-zlib-static/include -I/c/mingw482/prerequisites/x86_64-w64-mingw32-static/include" CPPFLAGS="" LDFLAGS="-pipe -L/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/lib -L/c/mingw482/prerequisites/x86_64-zlib-static/lib -L/c/mingw482/prerequisites/x86_64-w64-mingw32-static/lib"
+
+# **************************************************************************
+
+name         : genidl-v3
+type         : svn
+revision     : 6432
+url          : svn://svn.code.sf.net/p/mingw-w64/code/stable/v3.x/mingw-w64-tools/genidl
+patches      : 
+configuration: --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64 CFLAGS="-O2 -pipe -I/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/include -I/c/mingw482/prerequisites/x86_64-zlib-static/include -I/c/mingw482/prerequisites/x86_64-w64-mingw32-static/include" CXXFLAGS="-O2 -pipe -I/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/include -I/c/mingw482/prerequisites/x86_64-zlib-static/include -I/c/mingw482/prerequisites/x86_64-w64-mingw32-static/include" CPPFLAGS="" LDFLAGS="-pipe -L/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/lib -L/c/mingw482/prerequisites/x86_64-zlib-static/lib -L/c/mingw482/prerequisites/x86_64-w64-mingw32-static/lib"
+
+# **************************************************************************
+
+name         : genpeimg-v3
+type         : svn
+revision     : 6432
+url          : svn://svn.code.sf.net/p/mingw-w64/code/stable/v3.x/mingw-w64-tools/genpeimg
+patches      : 
+configuration: --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64 CFLAGS="-O2 -pipe -I/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/include -I/c/mingw482/prerequisites/x86_64-zlib-static/include -I/c/mingw482/prerequisites/x86_64-w64-mingw32-static/include" CXXFLAGS="-O2 -pipe -I/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/include -I/c/mingw482/prerequisites/x86_64-zlib-static/include -I/c/mingw482/prerequisites/x86_64-w64-mingw32-static/include" CPPFLAGS="" LDFLAGS="-pipe -L/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/lib -L/c/mingw482/prerequisites/x86_64-zlib-static/lib -L/c/mingw482/prerequisites/x86_64-w64-mingw32-static/lib"
+
+# **************************************************************************
+
+name         : widl-v3
+type         : svn
+revision     : 6432
+url          : svn://svn.code.sf.net/p/mingw-w64/code/stable/v3.x/mingw-w64-tools/widl
+patches      : 
+configuration: --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --prefix=/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64 CFLAGS="-O2 -pipe -I/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/include -I/c/mingw482/prerequisites/x86_64-zlib-static/include -I/c/mingw482/prerequisites/x86_64-w64-mingw32-static/include" CXXFLAGS="-O2 -pipe -I/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/include -I/c/mingw482/prerequisites/x86_64-zlib-static/include -I/c/mingw482/prerequisites/x86_64-w64-mingw32-static/include" CPPFLAGS="" LDFLAGS="-pipe -L/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/lib -L/c/mingw482/prerequisites/x86_64-zlib-static/lib -L/c/mingw482/prerequisites/x86_64-w64-mingw32-static/lib"
+
+# **************************************************************************
+
+name         : libgnurx-2.5.1
+type         : .tar.gz
+version      : 2.5.1
+url          : https://sourceforge.net/projects/mingw/files/Other/UserContributed/regex/mingw-regex-2.5.1/mingw-libgnurx-2.5.1-src.tar.gz
+patches      : libgnurx/mingw32-libgnurx-honor-destdir.patch
+configuration: --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt --enable-static --disable-shared CFLAGS="-O2 -pipe -I/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/include -I/c/mingw482/prerequisites/x86_64-zlib-static/include -I/c/mingw482/prerequisites/x86_64-w64-mingw32-static/include" CXXFLAGS="-O2 -pipe -I/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/include -I/c/mingw482/prerequisites/x86_64-zlib-static/include -I/c/mingw482/prerequisites/x86_64-w64-mingw32-static/include" CPPFLAGS="" LDFLAGS="-pipe -L/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/lib -L/c/mingw482/prerequisites/x86_64-zlib-static/lib -L/c/mingw482/prerequisites/x86_64-w64-mingw32-static/lib"
+
+# **************************************************************************
+
+name         : bzip2-1.0.6
+type         : .tar.gz
+version      : 1.0.6
+url          : http://www.bzip.org/1.0.6/bzip2-1.0.6.tar.gz
+patches      : bzip2/bzip2-1.0.4-bzip2recover.patch, bzip2/bzip2-1.0.6-autoconfiscated.patch, bzip2/bzip2-use-cdecl-calling-convention.patch, bzip2/bzip2-1.0.5-slash.patch
+configuration: --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt --enable-shared --disable-static CFLAGS="-O2 -pipe -I/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/include -I/c/mingw482/prerequisites/x86_64-zlib-static/include -I/c/mingw482/prerequisites/x86_64-w64-mingw32-static/include" CXXFLAGS="-O2 -pipe -I/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/include -I/c/mingw482/prerequisites/x86_64-zlib-static/include -I/c/mingw482/prerequisites/x86_64-w64-mingw32-static/include" CPPFLAGS="" LDFLAGS="-pipe -L/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/lib -L/c/mingw482/prerequisites/x86_64-zlib-static/lib -L/c/mingw482/prerequisites/x86_64-w64-mingw32-static/lib"
+
+# **************************************************************************
+
+name         : libffi-3.0.13
+type         : .tar.gz
+version      : 3.0.13
+url          : ftp://sourceware.org/pub/libffi/libffi-3.0.13.tar.gz
+patches      : 
+configuration: --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt --enable-static --disable-shared CFLAGS="-O2 -pipe -I/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/include -I/c/mingw482/prerequisites/x86_64-zlib-static/include -I/c/mingw482/prerequisites/x86_64-w64-mingw32-static/include" CXXFLAGS="-O2 -pipe -I/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/include -I/c/mingw482/prerequisites/x86_64-zlib-static/include -I/c/mingw482/prerequisites/x86_64-w64-mingw32-static/include" CPPFLAGS="" LDFLAGS="-pipe -L/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/lib -L/c/mingw482/prerequisites/x86_64-zlib-static/lib -L/c/mingw482/prerequisites/x86_64-w64-mingw32-static/lib"
+
+# **************************************************************************
+
+name         : expat-2.1.0
+type         : .tar.gz
+version      : 2.1.0
+url          : http://sourceforge.net/projects/expat/files/expat/2.1.0/expat-2.1.0.tar.gz
+patches      : 
+configuration: --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt --enable-static --disable-shared CFLAGS="-O2 -pipe -I/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/include -I/c/mingw482/prerequisites/x86_64-zlib-static/include -I/c/mingw482/prerequisites/x86_64-w64-mingw32-static/include" CXXFLAGS="-O2 -pipe -I/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/include -I/c/mingw482/prerequisites/x86_64-zlib-static/include -I/c/mingw482/prerequisites/x86_64-w64-mingw32-static/include" CPPFLAGS="" LDFLAGS="-pipe -L/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/lib -L/c/mingw482/prerequisites/x86_64-zlib-static/lib -L/c/mingw482/prerequisites/x86_64-w64-mingw32-static/lib"
+
+# **************************************************************************
+
+name         : tcl8.6.1
+type         : .tar.gz
+version      : 8.6.1
+url          : http://prdownloads.sourceforge.net/tcl/tcl8.6.1-src.tar.gz
+patches      : tcl/tcl-8.5.14-autopath.patch, tcl/tcl-8.5.14-conf.patch, tcl/tcl-8.5.14-hidden.patch, tcl/tcl-mingw-w64-compatibility.patch, tcl/tcl-8.6.1-mingwexcept.patch, tcl/no-xc.mingw.patch, tcl/use-system-zlib.mingw.patch, tcl/proper-implib-name.mingw.patch
+configuration: --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt --disable-threads --enable-shared --enable-64bit
+
+# **************************************************************************
+
+name         : tk8.6.1
+type         : .tar.gz
+version      : 8.6.1
+url          : http://prdownloads.sourceforge.net/tcl/tk8.6.1-src.tar.gz
+patches      : tk/tk-8.6.1-mingwexcept.patch, tk/tk-8.6.1-prevent-tclStubsPtr-segfault.patch, tk/implib-name.mingw.patch
+configuration: --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt --with-tcl=/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/lib --enable-shared --enable-64bit
+
+# **************************************************************************
+
+name         : openssl-1.0.1e
+type         : .tar.gz
+version      : 1.0.1e
+url          : http://www.openssl.org/source/openssl-1.0.1e.tar.gz
+patches      : openssl/openssl-1.0.0a-ldflags.patch, openssl/openssl-1.0.0d-windres.patch, openssl/openssl-1.0.0h-pkg-config.patch, openssl/openssl-1.0.1-parallel-build.patch, openssl/openssl-1.0.1-x32.patch, openssl/openssl-0.9.6-x509.patch, openssl/openssl-1.0.1e-manfix.patch
+configuration: --prefix=/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt shared threads zlib enable-camellia enable-idea enable-mdc2 enable-tlsext enable-rfc3779 mingw64
+
+# **************************************************************************
+
+name         : sqlite-3080002
+type         : .tar.gz
+version      : 3080002
+url          : http://www.sqlite.org/2013/sqlite-autoconf-3080002.tar.gz
+patches      : 
+configuration: --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt --enable-shared --disable-static CFLAGS="-O2 -pipe -I/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/include -I/c/mingw482/prerequisites/x86_64-zlib-static/include -I/c/mingw482/prerequisites/x86_64-w64-mingw32-static/include" CXXFLAGS="-O2 -pipe -I/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/include -I/c/mingw482/prerequisites/x86_64-zlib-static/include -I/c/mingw482/prerequisites/x86_64-w64-mingw32-static/include" CPPFLAGS=" -DSQLITE_ENABLE_COLUMN_METADATA -DSQLITE_ENABLE_RTREE" LDFLAGS="-pipe -L/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/lib -L/c/mingw482/prerequisites/x86_64-zlib-static/lib -L/c/mingw482/prerequisites/x86_64-w64-mingw32-static/lib"
+
+# **************************************************************************
+
+name         : ncurses-5.9
+type         : .tar.gz
+version      : 5.9
+url          : ftp://invisible-island.net/ncurses/ncurses-5.9.tar.gz
+patches      : 
+configuration: --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --prefix=/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt --without-ada --with-cxx --without-pthread --enable-pc-files --with-pkg-config --with-pkg-config-libdir=/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/lib/pkgconfig --disable-rpath --enable-colorfgbg --disable-symlinks --enable-warnings --enable-assertions --disable-home-terminfo --enable-database --enable-sp-funcs --enable-term-driver --enable-interop --enable-widec --without-trace CFLAGS="-O2 -pipe -I/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/include -I/c/mingw482/prerequisites/x86_64-zlib-static/include -I/c/mingw482/prerequisites/x86_64-w64-mingw32-static/include -D__USE_MINGW_ANSI_STDIO=1" CXXFLAGS="-O2 -pipe -I/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/include -I/c/mingw482/prerequisites/x86_64-zlib-static/include -I/c/mingw482/prerequisites/x86_64-w64-mingw32-static/include" CPPFLAGS="" LDFLAGS="-pipe -L/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/lib -L/c/mingw482/prerequisites/x86_64-zlib-static/lib -L/c/mingw482/prerequisites/x86_64-w64-mingw32-static/lib"
+
+# **************************************************************************
+
+name         : readline-6.2
+type         : .tar.gz
+version      : 6.2
+url          : ftp://ftp.gnu.org/gnu/readline/readline-6.2.tar.gz
+patches      : readline/readline62-001, readline/readline62-002, readline/readline62-003, readline/readline62-004
+configuration: --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt --enable-shared --disable-static --with-curses CFLAGS="-O2 -pipe -I/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/include -I/c/mingw482/prerequisites/x86_64-zlib-static/include -I/c/mingw482/prerequisites/x86_64-w64-mingw32-static/include -D__USE_MINGW_ANSI_STDIO=1" CXXFLAGS="-O2 -pipe -I/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/include -I/c/mingw482/prerequisites/x86_64-zlib-static/include -I/c/mingw482/prerequisites/x86_64-w64-mingw32-static/include" CPPFLAGS="" LDFLAGS="-pipe -L/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/lib -L/c/mingw482/prerequisites/x86_64-zlib-static/lib -L/c/mingw482/prerequisites/x86_64-w64-mingw32-static/lib"
+
+# **************************************************************************
+
+name         : Python-2.7.6
+type         : .tar.xz
+version      : 2.7.6
+url          : http://www.python.org/ftp/python/2.7.6/Python-2.7.6.tar.xz
+patches      : Python/2.7.6/0005-MINGW.patch, Python/2.7.6/0006-mingw-removal-of-libffi-patch.patch, Python/2.7.6/0007-mingw-system-libffi.patch, Python/2.7.6/0010-mingw-osdefs-DELIM.patch, Python/2.7.6/0015-mingw-use-posix-getpath.patch, Python/2.7.6/0020-mingw-w64-test-for-REPARSE_DATA_BUFFER.patch, Python/2.7.6/0025-mingw-regen-with-stddef-instead.patch, Python/2.7.6/0030-mingw-add-libraries-for-_msi.patch, Python/2.7.6/0035-MSYS-add-MSYSVPATH-AC_ARG.patch, Python/2.7.6/0040-mingw-cygwinccompiler-use-CC-envvars-and-ld-from-print-prog-name.patch, Python/2.7.6/0045-cross-darwin.patch, Python/2.7.6/0050-mingw-sysconfig-like-posix.patch, Python/2.7.6/0055-mingw-pdcurses_ISPAD.patch, Python/2.7.6/0060-mingw-static-tcltk.patch, Python/2.7.6/0065-mingw-x86_64-size_t-format-specifier-pid_t.patch, Python/2.7.6/0070-python-disable-dbm.patch, Python/2.7.6/0075-add-python-config-sh.patch, Python/2.7.6/0080-mingw-nt-threads-vs-pthreads.patch, Python/2.7.6/0090-mingw-reorder-bininstall-ln-symlink-creation.patch, Python/2.7.6/0095-mingw-use-backslashes-in-compileall-py.patch, Python/2.7.6/0100-mingw-distutils-MSYS-convert_path-fix-and-root-hack.patch, Python/2.7.6/0105-mingw-MSYS-no-usr-lib-or-usr-include.patch, Python/2.7.6/0110-mingw-_PyNode_SizeOf-decl-fix.patch, Python/2.7.6/0115-mingw-cross-includes-lower-case.patch, Python/2.7.6/0500-mingw-install-LDLIBRARY-to-LIBPL-dir.patch, Python/2.7.6/0505-add-build-sysroot-config-option.patch, Python/2.7.6/0510-cross-PYTHON_FOR_BUILD-gteq-275-and-fullpath-it.patch, Python/2.7.6/0515-mingw-add-GetModuleFileName-path-to-PATH.patch, Python/2.7.6/0520-Add-interp-Python-DESTSHARED-to-PYTHONPATH-b4-pybuilddir-txt-dir.patch, Python/2.7.6/0525-msys-monkeypatch-os-system-via-sh-exe.patch
+configuration: --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --prefix=/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt --enable-shared --without-pydebug --with-system-expat --with-system-ffi CC=x86_64-w64-mingw32-gcc LIBFFI_INCLUDEDIR=C:/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/lib/libffi-3.0.13/include OPT= CFLAGS="-O2 -pipe -I/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/include -I/c/mingw482/prerequisites/x86_64-zlib-static/include -I/c/mingw482/prerequisites/x86_64-w64-mingw32-static/include -fwrapv -DNDEBUG -D__USE_MINGW_ANSI_STDIO=1" CPPFLAGS=" -IC:/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/include -IC:/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/include/ncursesw -IC:/mingw482/prerequisites/x86_64-zlib-static/include" LDFLAGS="-pipe -L/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/lib -L/c/mingw482/prerequisites/x86_64-zlib-static/lib -L/c/mingw482/prerequisites/x86_64-w64-mingw32-static/lib -LC:/mingw482/prerequisites/x86_64-zlib-static/lib -LC:/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/lib"
+
+# **************************************************************************
+
+name         : gdb-7.6.2
+type         : .tar.bz2
+version      : 7.6.2
+url          : ftp://ftp.gnu.org/gnu/gdb/gdb-7.6.2.tar.bz2
+patches      : gdb/gdb-fix-display-tabs-on-mingw.patch, gdb/gdb-mingw-gcc-4.7.patch, gdb/gdb-perfomance.patch, gdb/gdb-python-fix-crash.patch
+configuration: --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --prefix=/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64 --enable-targets=x86_64-w64-mingw32 --enable-64-bit-bfd --disable-nls --disable-werror --disable-win32-registry --disable-rpath --with-system-gdbinit=/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/etc/gdbinit --with-python=/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/bin/python-config.sh --with-expat --with-libiconv --with-zlib --disable-tui --disable-gdbtk CFLAGS="-O2 -pipe -I/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/include -I/c/mingw482/prerequisites/x86_64-zlib-static/include -I/c/mingw482/prerequisites/x86_64-w64-mingw32-static/include -D__USE_MINGW_ANSI_STDIO=1" CXXFLAGS="-O2 -pipe -I/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/include -I/c/mingw482/prerequisites/x86_64-zlib-static/include -I/c/mingw482/prerequisites/x86_64-w64-mingw32-static/include -D__USE_MINGW_ANSI_STDIO=1" CPPFLAGS="" LDFLAGS="-pipe -L/c/mingw482/x86_64-482-posix-seh-rt_v3-r2/mingw64/opt/lib -L/c/mingw482/prerequisites/x86_64-zlib-static/lib -L/c/mingw482/prerequisites/x86_64-w64-mingw32-static/lib"
+
+# **************************************************************************
+
+name         : make_git
+type         : git
+SHA          : a4937bc897320563091a77087baf1cdbe52885ab
+url          : http://git.savannah.gnu.org/cgit/make.git
+patches      : make/make-linebuf-mingw.patch, make/make-getopt.patch
+configuration: 
+
+# **************************************************************************
+

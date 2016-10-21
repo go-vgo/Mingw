@@ -1,0 +1,64 @@
+V "GNAT Lib v4.8"
+A -gnatwa
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=core2
+A -march=nocona
+P ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_STANDARD_STORAGE_POOLS
+RV SPARK
+
+U system.communication%b  s-commun.adb		5de653db NE OL PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W system%s		system.ads		system.ali
+
+U system.communication%s  s-commun.ads		6f46f27f NE OL PR PK
+W ada%s			ada.ads			ada.ali
+W ada.streams%s		a-stream.ads		a-stream.ali
+W system%s		system.ads		system.ali
+W system.crtl%s		s-crtl.ads		s-crtl.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-except.ads		20120716125142 10fcae55
+D a-stream.ads		20090409150020 2ca4ee37
+D a-tags.ads		20111212115430 6c0509d0
+D a-unccon.ads		20070406091342 f9eb8f06
+D system.ads		20120723080122 5b069696
+D s-commun.ads		20120709130952 06400110
+D s-commun.adb		20100125162420 5ba652cb
+D s-crtl.ads		20130102105938 1ea48bce
+D s-exctab.ads		20090417131548 66e51330
+D s-parame.ads		20110830140626 b6e20cc0
+D s-soflin.ads		20120515094620 24c8153c
+D s-stache.ads		20090417130712 596fc1b4
+D s-stalib.ads		20130104124956 f78bcf95
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152356 afc5dc80
+D s-traent.ads		20090417130712 5221ee41
+X 1 ada.ads
+16K9*Ada 19e8 7|34r6 41r15 42r35 8|34r19 41r15 42r35 44r16
+X 3 a-stream.ads
+36K13*Streams 69e16 7|34w10 41r19 42r39 8|34r23 41r19 42r39 44r20
+44I9*Stream_Element_Offset<long_long_integer> 7|41r27 42r47 8|34r31 41r27
+. 42r47 44r28
+X 6 system.ads
+37K9*System 196e11 7|35r6 37r9 50r5 8|32r14 45r16 55r5
+X 7 s-commun.ads
+37K16*Communication 6|37k9 7|50l12 50e25 8|32b21 55l12 55t25
+40V13*Last_Index{3|44I9} 41>7 42>7 8|40b13 53l8 53t18
+41i7 First{3|44I9} 8|41b7 47r10 51r17
+42m7 Count{9|60M9} 8|42b7 47r37 51r30
+X 8 s-commun.adb
+34I12 SEO{3|44I9} 47r18 51r25
+X 9 s-crtl.ads
+38K16*CRTL 7|35w13 42r15 8|42r15 45r23 9|213e16
+60M9*size_t 7|42r20 8|42r20 45r28
+

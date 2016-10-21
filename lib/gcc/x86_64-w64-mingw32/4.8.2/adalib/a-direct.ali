@@ -1,0 +1,509 @@
+V "GNAT Lib v4.8"
+A -gnatwa
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=core2
+A -march=nocona
+P SS ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_ALLOCATORS
+RV NO_CALENDAR
+RV NO_DELAY
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FINALIZATION
+RV NO_FIXED_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_CONVERSION
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV NO_OBSOLESCENT_FEATURES
+RV SPARK
+
+U ada.directories%b	a-direct.adb		65a93576 OL PK
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+W ada.calendar.formatting%s  a-calfor.adb	a-calfor.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.handling%s  a-chahan.adb	a-chahan.ali
+W ada.directories%s	a-direct.adb		a-direct.ali
+W ada.directories.validity%s  a-dirval.adb	a-dirval.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.fixed%s	a-strfix.adb		a-strfix.ali
+W ada.strings.maps%s	a-strmap.adb		a-strmap.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.unchecked_conversion%s
+W ada.unchecked_deallocation%s
+W system%s		system.ads		system.ali
+W system.crtl%s		s-crtl.ads		s-crtl.ali
+W system.file_io%s	s-fileio.adb		s-fileio.ali
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+W system.os_constants%s	s-oscons.ads		s-oscons.ali
+W system.os_lib%s	s-os_lib.adb		s-os_lib.ali
+W system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+W system.regexp%s	s-regexp.adb		s-regexp.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+
+U ada.directories%s	a-direct.ads		9c33e8ea EE OL PF PK
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.finalization%s	a-finali.adb		a-finali.ali
+W ada.io_exceptions%s	a-ioexce.ads		a-ioexce.ali
+W ada.streams%s		a-stream.ads		a-stream.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W system%s		system.ads		system.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-calend.ads		20120515092648 d86d6c8c
+D a-calfor.ads		20090220152038 0a6f9afc
+D a-catizo.ads		20120123093332 409d7e5b
+D a-charac.ads		20070912115822 2d3ec45b
+D a-chahan.ads		20100810135054 1d381dcd
+D a-chlat1.ads		20070912115822 2825df20
+D a-direct.ads		20101220072658 9d42e46d
+D a-direct.adb		20121001094122 1ec2dbb7
+D a-dirval.ads		20090409150020 3f71a254
+D a-except.ads		20120716125142 10fcae55
+D a-finali.ads		20111121113556 52ecdc1b
+D a-ioexce.ads		20091130110856 8b9de6cd
+D a-stream.ads		20090409150020 2ca4ee37
+D a-string.ads		20070406091342 90ac6797
+D a-strfix.ads		20101008130256 d07c346e
+D a-strmap.ads		20090409150020 9cb836fb
+D a-strunb.ads		20120426100352 3f91d4c5
+D a-tags.ads		20111212115430 6c0509d0
+D a-unccon.ads		20070406091342 f9eb8f06
+D a-uncdea.ads		20070406091342 f15a5ed1
+D interfac.ads		20110906094622 129923ea
+D i-c.ads		20110801143640 5421119b
+D i-cstrea.ads		20130102105938 3286f6aa
+D system.ads		20120723080122 5b069696
+D s-atocou.ads		20111104134502 4a9c6cb4
+D s-atocou.adb		20111121115908 7116b4cf
+D s-crtl.ads		20130102105938 1ea48bce
+D s-exctab.ads		20090417131548 66e51330
+D s-ficobl.ads		20120709130952 55a71d43
+D s-fileio.ads		20120709130952 45ce2f0f
+D s-finmas.ads		20111024091916 b95bb341
+D s-finroo.ads		20120426095924 4ff27390
+D s-oscons.ads		20140106014502 3efbac8d
+D s-os_lib.ads		20120709131452 cf6cfdbf
+D s-parame.ads		20110830140626 b6e20cc0
+D s-pooglo.ads		20110804083314 542f33d0
+D s-regexp.ads		20120410054430 9c7d27a7
+D s-secsta.ads		20110830140626 eea35a36
+D s-soflin.ads		20120515094620 24c8153c
+D s-stache.ads		20090417130712 596fc1b4
+D s-stalib.ads		20130104124956 f78bcf95
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152356 afc5dc80
+D s-stopoo.ads		20111013103734 7b8fbeee
+D s-stposu.ads		20121005142122 ffeba1c5
+D s-stratt.ads		20100909123136 aedef97e
+D s-string.ads		20130104124956 46b01415
+D s-traent.ads		20090417130712 5221ee41
+D s-unstyp.ads		20090409150020 6ae15c76
+X 1 ada.ads
+16K9*Ada 19e8 8|71r6 72r6 73r6 74r6 76r9 317r54 441r54 454r37 455r37 456r37
+. 457r37 462r18 463r18 478r28 487r5 9|32r6 32r38 33r6 33r38 34r6 34r38 35r6
+. 35r38 36r6 37r6 37r38 38r6 38r38 39r6 40r6 49r14 86r26 752r15 996r15 1012r54
+. 1332r5
+X 2 a-calend.ads
+36K13*Calendar 375e17 8|71w10 317r58 441r58 9|32w10 32r42 33r10 33r42 996r19
+. 1012r58
+38I9*Time 8|317r67 441r67 9|964r54 972r16 1012r67
+50O12*Day_Duration{duration}
+74V13*Time_Of{38I9} 9|996s28
+X 3 a-calfor.ads
+24K22*Formatting 215e28 9|33w19 33r51
+66V13*Seconds_Of{2|50O12} 9|997s36
+102V13*Time_Of{2|38I9} 9|1004s23
+X 5 a-charac.ads
+16K13*Characters 18e19 9|34r10 34r42 1185r24
+X 6 a-chahan.ads
+36K24*Handling 150e28 9|34w21 34r53 1185r35
+47V13*Is_Letter{boolean} 9|1185s44
+66V13*To_Lower{string} 9|410s42
+X 8 a-direct.ads
+76K13*Directories 1|16k9 8|487l9 487e20 9|35r10 35r42 49b18 1332l9 1332t20
+82V13*Current_Directory{string} 9|227s23 279s29 285s51 518b13 532l8 532t25
+. 597s40
+88U14*Set_Directory 88>29 9|611s10 632s10 1127b14 1142l8 1142t21
+88s29 Directory{string} 9|1127b29 1128r39 1130r34 1132r49 1134r31 1136r29
+. 1140r57
+95U14*Create_Directory 96>7 97>7 9|393b14 436l8 436t24 506s19
+96s7 New_Directory{string} 9|394b7 397r39 402r34 404r51 432r51 507r22
+97s7 Form{string} 9|395b7 410r52 507r60
+110U14*Delete_Directory 110>32 9|538b14 561l8 561t24
+110s32 Directory{string} 9|538b32 542r34 544r47 546r31 547r38 553r45 557r47
+118U14*Create_Path 119>7 120>7 9|442b14 512l8 512t19
+119s7 New_Directory{string} 9|443b7 446r30 453r34 455r51 461r24 461r49
+120s7 Form{string} 9|444b7 507r68
+137U14*Delete_Tree 137>27 9|596b14 623s22 646l8 646t19
+137s27 Directory{string} 9|596b27 603r34 605r47 607r31 608r38 611r25 636r45
+. 642r20
+147U14*Delete_File 147>27 9|567b14 590l8 590t19 627s19
+147s27 Name{string} 9|567b27 573r34 574r57 576r34 577r40 579r44 584r23 587r46
+154U14*Rename 154>22 154>32 9|1052b14 1097l8 1097t14
+154s22 Old_Name{string} 9|1052b22 1058r34 1059r61 1064r34 1065r40 1067r48
+. 1077r23 1093r30
+154s32 New_Name{string} 9|1052b32 1061r37 1062r61 1069r30 1069r62 1071r28
+. 1077r33 1089r52
+163U14*Copy_File 164>7 165>7 166>7 9|300b14 387l8 387t17
+164s7 Source_Name{string} 9|301b7 312r34 314r44 320r34 321r38 381r21 384r49
+165s7 Target_Name{string} 9|302b7 316r37 318r44 323r27 324r45 381r34
+166s7 Form{string} 9|303b7 327r13 329r39 335r30 335r46
+234V13*Full_Name{string} 234>24 9|849b13 872l8 872t17 1326s53
+234s24 Name{string} 9|849b24 853r34 854r57 865r60
+240V13*Simple_Name{string} 240>26 9|102s35 1148b13 1216l8 1216t19 1292s37
+. 1312s40
+240s26 Name{string} 9|1148b26 1203r34 1204r57 1210r62
+246V13*Containing_Directory{string} 246>35 9|205b13 285s29 294l8 294t28 1089s30
+246s35 Name{string} 9|205b35 209r34 210r57 217r62 219r36 245r35 249r50 253r29
+. 253r35
+255V13*Extension{string} 255>24 9|670b13 704l8 704t17
+255s24 Name{string} 9|670b24 674r34 675r57 680r29 685r23 688r19 693r55 695r39
+. 695r56
+263V13*Base_Name{string} 263>24 9|101b13 119l8 119t17
+263s24 Name{string} 9|101b24 102r48
+270V13*Compose{string} 271>7 272>7 273>7 9|140b13 199l8 199t15 769s18
+271s7 Containing_Directory{string} 9|141b7 145r29 152r10 153r42 156r47 173r18
+. 174r32
+272s7 Name{string} 9|142b7 146r31 159r66 162r39 165r44 168r37 185r37 185r53
+. 186r25
+273s7 Extension{string} 9|143b7 146r45 159r9 164r13 165r57 168r50 190r13
+. 193r40 193r61 194r28
+288E9*File_Kind 288e62 301r41 337r31 426r66 464r18 9|714r14 926r41 946r66
+288n23*Directory{288E9} 9|784r46 785r33 939r17
+288n34*Ordinary_File{288E9} 464r31 9|714r27 778r46 779r33 936r17
+288n49*Special_File{288E9} 9|789r46 790r30 942r17
+292I9*File_Size<long_long_integer> 306r41 430r66 9|1237r41 1252r17 1256r66
+295V13*Exists{boolean} 295>21 9|652b13 664l8 664t14
+295s21 Name{string} 9|652b21 656r34 657r57 662r30
+301V13*Kind{288E9} 301>19 9|926b13 944l8 944t12
+301s19 Name{string} 9|926b19 930r27 931r44 935r30 938r27
+306V13*Size{292I9} 306>19 9|1237b13 1254l8 1254t12 1266s17
+306s19 Name{string} 9|1237b19 1238r29 1246r31 1247r44 1250r23 1250r39
+317V13*Modification_Time{2|38I9} 317>32 9|964b13 1009l8 1009t25 1023s17
+317s32 Name{string} 9|964b32 977r32 977r60 978r38 981r35
+330R9*Directory_Entry_Type 382r29 397r56 414r44 420r42 426r37 430r37 441r25
+. 460c9 465e14 9|79r23 599r21 874r42 894r29 946r37 1012r25 1108r56 1111r25
+. 1219r25 1256r37
+337A9*Filter_Type(boolean)<288E9> 354r19 395r19 9|76r23 1106r19 1278r19
+345R9*Search_Type 351r26 369r42 376r36 381r32 478c9 480e14 482r40 485r42
+. 9|93r41 598r21 710r41 831r40 893r32 1031r36 1110r25 1275r26
+350U14*Start_Search 351=7 352>7 353>7 354>7 9|613s10 1114s7 1274b14 1330l8
+. 1330t20
+351r7 Search{345R9} 9|1275b7 1304m19 1304r19 1317m17 1321m7 1325m7 1325r7
+. 1326m7 1326r7 1327m7 1327r7 1328m7 1328r7 1329m7 1329r7
+352s7 Directory{string} 9|613r32 1276b7 1283r40 1290r28 1292r50 1312r53 1326r64
+353s7 Pattern{string} 9|613r50 1277b7 1299r13 1305r58
+354a7 Filter{337A9} 9|1278b7 1325r32
+369U14*End_Search 369=26 485b14 9|633s10 1120s7
+369r26 Search{345R9} 485b26
+376V13*More_Entries{boolean} 376>27 9|614s16 1031b13 1046l8 1046t20 1115s13
+376r27 Search{345R9} 9|1031b27 1033r10 1036r13 1040r17 1041r31 1045r14
+380U14*Get_Next_Entry 381=7 382<7 9|615s13 892b14 920l8 920t22 1116s10
+381r7 Search{345R9} 9|893b7 899r10 899r42 905r14 906r28 911r14 917m10 917r10
+. 918r29
+382r7 Directory_Entry{330R9} 9|894b7 918m10
+392U14*Search 393>7 394>7 395>7 396^7 9|1103b14 1121l8 1121t14
+393s7 Directory{string} 9|1104b7 1114r27
+394s7 Pattern{string} 9|1105b7 1114r38
+395a7 Filter{337A9} 9|1106b7 1114r47
+396p7 Process 9|1107b7 1117r10
+397r38 Directory_Entry{330R9}
+414V13*Simple_Name{string} 414>26 9|618s47 1218b13 1231l8 1231t19
+414r26 Directory_Entry{330R9} 9|1219b7 1223r14 1229r28
+420V13*Full_Name{string} 420>24 9|874b13 886l8 886t17
+420r24 Directory_Entry{330R9} 9|874b24 878r14 884r28
+426V13*Kind{288E9} 426>19 9|946b13 958l8 958t12
+426r19 Directory_Entry{330R9} 9|946b19 950r14 956r17
+430V13*Size{292I9} 430>19 9|1256b13 1268l8 1268t12
+430r19 Directory_Entry{330R9} 9|1256b19 1260r14 1266r34
+440V13*Modification_Time{2|38I9} 441>7 9|1011b13 1025l8 1025t25
+441r7 Directory_Entry{330R9} 9|1012b7 1017r14 1023r47
+454X4*Status_Error 9|879r16 900r16 912r16 951r16 1018r16 1224r16 1261r16
+455X4*Name_Error 9|155r16 161r16 167r16 210r16 313r16 317r16 321r16 403r16
+. 454r16 543r16 547r16 574r16 579r16 604r16 608r16 657r16 675r16 854r16 931r16
+. 978r16 1059r16 1062r16 1067r16 1088r22 1131r16 1135r16 1139r16 1204r16
+. 1247r16 1291r16 1305r19
+456X4*Use_Error 9|244r22 324r16 360r25 374r25 384r19 427r22 431r22 502r25
+. 556r22 587r19 640r22 1070r16 1092r22 1311r16
+457X4*Device_Error
+461b7*Is_Valid{boolean} 9|799m25 878r30 950r30 1017r30 1223r30 1260r30
+462r7*Simple{18|79R9} 9|800m25 1229r44
+463r7*Full{18|79R9} 9|801m25 884r44 1023r63 1266r50
+464e7*Kind{288E9} 9|802m25 956r33
+470R9 Search_Data 471r30 9|72c9 80e14 86r54 1321r27
+471P9 Search_Ptr(470R9) 479r15 9|86r67
+479p7*Value{471P9} 9|736r31 743r20 766r45 769r45 778r32 784r32 789r32 797r29
+. 798r29 833r17 837r20 838r27 841m23 899r17 899r49 905r21 911r21 917r17 918r36
+. 1033r17 1036r20 1040r24 1045r21 1304m26 1321m14 1325r14 1326r14 1327r14
+. 1328r14 1329r14
+482U14 Finalize<12|53p14> 482=24 485r63 9|831b14 843l8 843t16 1317s7
+482r24 Search{345R9} 9|831b24 833r10 837r13 838r20 841m16 841r16
+X 9 a-direct.adb
+51i4 Filename_Max{integer} 720r28
+54M9 Dir_Type_Value<25|64M9> 58r22 58r40 77r23 88r27 125r27 1285r21 1308r14
+58m4 No_Dir{54M9} 77r41 837r33 1310r16
+61e4 Dir_Separator{character} 62m22 62r22 180r30
+65a4 Dir_Seps{17|47A9} 178r58 219r42 469r41 470r41 476r50 486r40 492r47 685r35
+. 1159r39
+68i4 Max_Path{integer} 69m22 69r22 519r29 520r35
+73b7*Is_Valid{boolean} 743m26 899r55 911r27 1036r26 1045r27 1329m20
+74r7*Name{18|79R9} 769r51 1326m20
+75r7*Pattern{38|99R9} 766r51 1327m20
+76a7*Filter{8|337A9} 778r38 784r38 789r38 1325m20
+77m7*Dir{54M9} 736r37 837r26 838r33 1328m20
+78b7*Entry_Fetched{boolean} 797m35 905r27 917m23 1040r30
+79r7*Dir_Entry{8|330R9} 798m35 918r42
+83a4 Empty_String{string} 686r23 702r17
+86U14 Free[21|20] 841s10 1304s13
+88U14 Close 88>21 125b14 134l8 134t13 838s13
+88m21 Dir{54M9} 125b21 133r34
+90V13 File_Exists{boolean} 90>26 662s17 773s19 815b13 825l8 825t19 930s14
+90s26 Name{string} 815b26 819r29 822r20 822r36
+93U14 Fetch_Next_Entry 93>32 710b14 809l8 809t24 906s10 1041s13
+93r32 Search{8|345R9} 710b32 736r24 743m13 743r13 766r38 769r38 778r25 784r25
+. 789r25 797m22 797r22 798m22 798r22
+102a7 Simple{string} 110r26 111r13 112r20 118r14
+110i11 Pos{integer} 111r21 112r33
+126i7 Discard{integer} 127r29 133m7
+129V16*closedir{integer} 129>26 130b<c,__gnat_closedir>25 133s18
+129m26 directory{28|47M12}
+145a7 Result{string} 174m10 178r43 180m13 185m10 192m13 193m13 197r17
+147i7 Last{natural} 173m10 174r23 178r13 178r51 179m13 179r21 180r21 185r18
+. 185r30 186m10 186r18 191m13 191r21 192r21 193r21 193r33 194m13 194r21 197r30
+217a13 Norm{string} 232r19 236r22 238r26 239r36 239r42 239r59 240r37 240r43
+. 242r40 242r46
+218i13 Last_DS{natural} 222r16 249r40 253r49
+249i19 Last{positive} 250r41 259r25 261r32 263r32 266r33 273m22 273r30 278r22
+. 284r25 288r42
+250a19 Result{string} 253m19 261r24 263r24 267r33 269r27 271r27 278r40 284r43
+. 288r29
+305b7 Success{boolean} 381m47 383r17
+306e7 Mode{35|311E9} 352m19 354m19 356m19 358m19 381r56
+307e7 Preserve{35|327E9} 366m19 368m19 370m19 372m19 381r62
+329a16 Formstr{string} 335m16 336m16 336r25 340r25 341r22 342m22 343r54 349r32
+. 353r22 355r22 357r22 363r32 367r22 369r22 371r22
+330i16 V1{natural} 349m49 351r19 353r31 355r31 357r31 363m53 365r19 367r31
+. 369r31 371r31
+330i20 V2{natural} 349m53 353r37 355r37 357r37 363m57 367r37 369r37 371r37
+340i20 J{integer} 341r31 342r31 343r63
+397a7 C_Dir_Name=397:53{string} 430r28
+410a13 Formstr{string} 418r29 422r19 424r19
+412e13 Encoding{28|65E9} 421m16 423m16 425m16 430r40
+415i13 V1{natural} 418m50 420r16 422r28 424r28
+415i17 V2{natural} 418m54 422r34 424r34
+446a7 New_Dir{string} 461m10 462m10 462r19 468r21 469r28 470r28 475r34 476r33
+. 482r32 486r27 492r30 496r33 501r39 503r33 507r39
+447i7 Last{positive} 487m16 496r47 501r53 503r47 507r53
+448i7 Start{positive} 472m13 474m16 474r25 475r26 476r42 482r19
+482i14 J{integer} 486r36 487r24 492r39
+519i7 Path_Len{natural} 526m46 526r46 531r47
+520a7 Buffer{string} 526m30 526r30 531r34
+522U17*Local_Get_Current_Dir 522>40 522>55 523b<c,__gnat_get_current_dir>25
+. 526s7
+522m40 Dir{25|64M9}
+522m55 Length{25|64M9}
+553a13 C_Dir_Name=553:55{string} 555r23
+568b7 Success{boolean} 584m29 586r17
+597a7 Current_Dir{string} 632r25
+598r7 Search{8|345R9} 613m24 613r24 614r30 615m29 615r29 633m22 633r22
+599r7 Dir_Ent{8|330R9} 615m37 618r60
+618a16 File_Name{string} 621r40 622r22 622r48 623r35 627r32
+636a13 C_Dir_Name=636:55{string} 639r23
+680i14 Pos{integer} 685r29 688r25 693r67 695r45
+693A27 Result_Type{string}<integer> 695r26
+711a7 Name{string} 761m13 766r20 769r58 800r58
+712i7 Last{natural} 760m13 761r24 766r31 769r69 800r69
+714e7 Kind{8|288E9} 779m25 785m25 790m22 802r37
+717m7 Filename_Addr{25|64M9} 734m10 742r13 757r34
+718i7 Filename_Len{integer} 738m15 738r15 748r49 760r21
+720a7 Buffer(character) 737m15 737r15
+724V16*readdir_gnat{25|64M9} 725>10 726>10 727^10 728b<c,__gnat_readdir>25
+. 735s12
+725m10 Directory{25|64M9}
+726m10 Buffer{25|64M9}
+727p10 Last(integer)
+748A21 Path_String{string}<integer> 749r50
+749P21 Path_String_Access(748A21) 754r28 756r36
+751V22 Address_To_Access[20|20]{749P21} 757s15
+756p13 Path_Access{749P21} 761r33
+768a16 Full_Name{string} 773r32 777r39 783r39 801r58
+770b16 Found{boolean} 780m25 786m25 791m22 796r22
+816V16*C_File_Exists{integer} 816>31 817b<c,__gnat_file_exists>25 824s14
+816m31 A{25|64M9}
+819a7 C_Name{string} 822m7 823m7 823r15 824m29 824r29
+865a13 Value{string} 866r44 869r28
+866A21 Result{string}<integer> 869r20
+965i7 Date{35|100I9} 981m10 987r20
+966i7 Year{35|113I12} 987m26 997r18 1004r32
+967i7 Month{35|114I12} 987m32 997r24 1004r38
+968i7 Day{35|115I12} 987m39 997r31 1004r45
+969i7 Hour{35|116I12} 987m44 997r48 1004r50
+970i7 Minute{35|117I12} 987m50 997r54 1004r56
+971i7 Second{35|118I12} 987m58 997r62 1004r64
+972i7 Result{2|38I9} 995m13 1004m13 1007r17
+1053b7 Success{boolean} 1077m43 1079r17
+1108r38 Directory_Entry{8|330R9}
+1110r7 Srch{8|345R9} 1114m21 1114r21 1115r27 1116m26 1116r26 1120m19 1120r19
+1111r7 Directory_Entry{8|330R9} 1116m32 1117r19
+1128a7 C_Dir_Name=1128:49{string} 1138r20
+1150V16 Simple_Name_Internal{string} 1150>38 1157b16 1196l11 1196t31 1210s40
+1150s38 Path{string} 1157b38 1159r33 1165r46 1169r21 1172r37
+1158i10 Cut_Start{natural} 1165m10 1165r27 1165r62 1172r43
+1160i10 Cut_End{natural} 1169m10 1172r56
+1171q10 Check_For_Standard_Dirs 1195l14 1195e37
+1172a13 BN{string} 1180r16 1180r33 1184r24 1185r55 1185r59 1186r24 1186r28
+. 1190r23 1190r27 1190r43 1193r23
+1174b13 Has_Drive_Letter{boolean} 1183r19
+1210a13 Value{string} 1211r44 1213r28
+1211A21 Result{string}<integer> 1213r20
+1238a7 C_Name{string} 1250m10 1251m10 1251r18 1252m36 1252r36
+1240V16*C_Size{long_integer} 1240>24 1241b<c,__gnat_named_file_length>25
+. 1252s28
+1240m24 Name{25|64M9}
+1280V16*opendir{28|47M12} 1280>25 1281b<c,__gnat_opendir>25 1308s30
+1280s25 file_name{string}
+1283a7 C_File_Name=1283:50{string} 1308r39
+1284r7 Pat{38|99R9} 1298m10 1327r32
+1285m7 Dir{54M9} 1308m7 1310r10 1328r32
+X 10 a-dirval.ads
+35K33*Validity 9|35w22 35r54 10|52e29
+37V13*Is_Valid_Simple_Name{boolean} 9|159s44 165s22
+40V13*Is_Valid_Path_Name{boolean} 9|153s22 209s14 312s14 316s17 402s14 453s14
+. 542s14 573s14 603s14 656s14 674s14 853s14 1058s14 1061s17 1130s14 1203s14
+43V13*Is_Path_Name_Case_Sensitive{boolean} 9|1301s31
+46V13*OpenVMS{boolean} 9|994s13
+49V13*Windows{boolean} 9|234s18 265s32
+X 12 a-finali.ads
+40K13*Finalization 8|72w10 478r32 12|73e21
+48H9*Controlled 8|478r45 12|64e72
+X 13 a-ioexce.ads
+18K13*IO_Exceptions 8|73w10 454r41 455r41 456r41 457r41 13|30e22
+21X4*Status_Error 8|454r55
+23X4*Name_Error 8|455r55
+24X4*Use_Error 8|456r55
+25X4*Device_Error 8|457r55
+X 15 a-string.ads
+16K13*Strings 8|74r10 462r22 463r22 9|36r10 37r10 37r42 38r10 38r42 65r41
+. 219r15 219r61 1159r12 1159r58 15|35e16
+32n33*Backward{32E9} 9|219r69 1159r66
+X 16 a-strfix.ads
+18K21*Fixed 9|36w18 219r23 1159r20 16|251e22
+48V13*Index{natural} 9|219s29 1159s26
+52e7 Going{15|32E9} 9|219r52 1159r49
+X 17 a-strmap.ads
+38K21*Maps 9|37w18 37r50 65r49 17|412e21
+47A9*Character_Set(boolean) 9|65r24
+83V13*Is_In{boolean} 9|178s36 469s21 470s21 476s26 486s20 492s23 685s16
+99V13*To_Set{47A9} 9|65s54
+X 18 a-strunb.ads
+76K21*Unbounded 8|74w18 462r30 463r30 9|38w18 38r50 18|489e26
+79R9*Unbounded_String 8|462r40 463r40 9|74r23 18|473e14
+94V13*To_Unbounded_String{79R9} 9|800s37 801s37 1326s32
+100V13*To_String{string} 9|769s27 884s17 1023s36 1229s17 1266s23
+X 20 a-unccon.ads
+17+9 Source 9|753r18
+18+9 Target 9|754r18
+20v14*Unchecked_Conversion 9|39w10 752r19
+X 21 a-uncdea.ads
+20u15*Unchecked_Deallocation 9|40w10 86r30
+X 25 system.ads
+37K9*System 9|42w6 42r31 43r6 43r31 44r6 44r31 45r6 45r31 46r6 46r31 47r6
+. 47r31 25|196e11
+64M9*Address 9|54r31 522r46 522r64 717r23 725r22 726r22 727r54 736r15 753r28
+. 816r35 1240r31
+66m4*Null_Address{64M9} 9|58r56 742r29
+78V14*"="{boolean} 9|742r27 837r30 1310r14
+X 28 s-crtl.ads
+38K16*CRTL 9|43w13 43r38 412r24 421r28 423r28 425r28 430r16 28|213e16
+47M12*DIRs{25|64M9} 9|129r38 133r28 1280r52
+53I12*int{integer}
+65E9*Filename_Encoding 9|412r29 28|65e62
+65n31*UTF8{65E9} 9|423r33
+65n37*ASCII_8bits{65E9} 9|425r33
+65n50*Unspecified{65E9} 9|421r33
+171V13*rmdir{53I12} 9|555s16 639s16
+174V13*chdir{53I12} 9|1138s13
+177V13*mkdir{53I12} 9|430s21
+X 31 s-fileio.ads
+39K16*File_IO 9|44w13 44r38 31|255e19
+198U14*Form_Parameter 9|349s16 363s16 418s13
+X 34 s-oscons.ads
+44K16*OS_Constants 9|45w13 45r38 34|295e24
+104N4*ENOENT 9|1087r24
+X 35 s-os_lib.ads
+56K16*OS_Lib 9|46w13 46r38 621r19 1175r15 35|994e18
+100I9*OS_Time 9|965r16
+113I12*Year_Type{integer} 9|966r16
+114I12*Month_Type{integer} 9|967r16
+115I12*Day_Type{integer} 9|968r16
+116I12*Hour_Type{integer} 9|969r16
+117I12*Minute_Type{integer} 9|970r16
+118I12*Second_Type{integer} 9|971r16
+140U14*GM_Split 9|987s10
+295U14*Delete_File 9|584s10
+299U14*Rename_File 9|1077s10
+311E9*Copy_Mode 9|306r18 35|321e14
+312n7*Copy{311E9} 9|354r27
+316n7*Overwrite{311E9} 9|306r31 352r27 356r27
+321n7*Append{311E9} 9|358r27
+327E9*Attribute 9|307r18 35|337e12
+328n7*Time_Stamps{327E9} 9|368r31
+332n7*Full{327E9} 9|370r31
+337n7*None{327E9} 9|307r31 366r31 372r31
+348U14*Copy_File 9|381s10
+410V13*File_Time_Stamp{100I9} 9|981s18
+419V13*Normalize_Pathname{string} 9|217s42 531s14 865s40
+468V13*Is_Regular_File{boolean} 9|320s17 501s22 576s17 777s22 935s13 977s15
+. 1064s17 1069s13 1246s14
+475V13*Is_Directory{boolean} 9|323s13 496s19 546s17 607s17 621s26 783s25
+. 938s13 977s46 1065s26 1069s48 1134s17 1290s14
+505V13*Is_Symbolic_Link{boolean} 9|577s22
+952V13*Errno{integer} 9|1087s16
+960e4*Directory_Separator{character} 9|263r41 462r36 467r13
+963e4*Path_Separator{character} 9|1175r22
+X 38 s-regexp.ads
+44K16*Regexp 9|47w13 47r38 38|137e18
+99R9*Regexp 9|75r23 1284r21 38|127e14
+102X4*Error_In_Regexp 9|1303r15
+105V13*Compile{99R9} 9|1298s17
+107b7 Glob{boolean} 9|1300r13
+108b7 Case_Sensitive{boolean} 9|1301r13
+116V13*Match{boolean} 9|766s13
+

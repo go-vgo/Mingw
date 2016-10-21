@@ -1,0 +1,47 @@
+V "GNAT Lib v4.8"
+A -gnatwa
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=core2
+A -march=nocona
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK
+
+U system.restrictions%b	s-restri.adb		386436bc NE OL PK
+W system%s		system.ads		system.ali
+
+U system.restrictions%s	s-restri.ads		17cb261f BN NE OL PR PK
+W system%s		system.ads		system.ali
+W system.rident%s
+
+D system.ads		20120723080122 5b069696
+D s-restri.ads		20110919082138 ba60cf37
+D s-restri.adb		20091130110856 8204f98b
+D s-rident.ads		20130129143108 f6ad7fbe
+X 1 system.ads
+37K9*System 196e11 2|43r6 45r9 49r26 76r5 3|34r14 59r5
+X 2 s-restri.ads
+45K16*Restrictions 1|37k9 2|76l12 76e24 3|34b21 59l12 59t24
+49K12*Rident[4|75] 51r28 3|35r8
+51r4*Run_Time_Restrictions{4|301R9[49]} 3|43r14 45r14 54r14 56r14
+64V13*Abort_Allowed{boolean} 65r19 3|41b13 46l8 46t21
+70V13*Tasking_Allowed{boolean} 71r19 3|52b13 57l8 57t23
+X 4 s-rident.ads
+75k16*Rident 2|43w13 49r33 4|489e18
+85E9*Restriction_Id
+92n7*No_Abort_Statements{85E9[2|49]} 3|43r46[2|49]
+142n7*No_Tasking{85E9[2|49]} 3|56r46[2|49]
+196n7*Max_Tasks{85E9[2|49]} 3|54r46[2|49]
+203n7*Max_Asynchronous_Select_Nesting{85E9[2|49]} 3|45r46[2|49]
+297A9*Restriction_Flags(boolean)<85E9[2|49]>
+301R9*Restrictions_Info 2|51r35[49]
+315a7*Violated{297A9[2|49]} 3|43r36[2|49] 45r36[2|49] 54r36[2|49] 56r36[2|49]
+

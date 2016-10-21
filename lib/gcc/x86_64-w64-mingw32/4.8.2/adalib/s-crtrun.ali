@@ -1,0 +1,51 @@
+V "GNAT Lib v4.8"
+A -gnatwa
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=core2
+A -march=nocona
+P ZX
+
+RN
+RV NO_STANDARD_STORAGE_POOLS
+
+U system.crtl.runtime%s	s-crtrun.ads		17d70f63 NE OL PR PK
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W interfaces.c.strings%s  i-cstrin.adb		i-cstrin.ali
+W system.crtl%s		s-crtl.ads		s-crtl.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-unccon.ads		20070406091342 f9eb8f06
+D interfac.ads		20110906094622 129923ea
+D i-c.ads		20110801143640 5421119b
+D i-cstrin.ads		20130104124956 341d0ddf
+D system.ads		20120723080122 5b069696
+D s-crtl.ads		20130102105938 1ea48bce
+D s-crtrun.ads		20091130102048 3d6e8972
+D s-exctab.ads		20090417131548 66e51330
+D s-parame.ads		20110830140626 b6e20cc0
+D s-stalib.ads		20130104124956 f78bcf95
+X 3 interfac.ads
+36K9*Interfaces 175e15 8|36r6 41r25
+X 4 i-c.ads
+18K20*C 230e17 8|36r17 41r36
+X 5 i-cstrin.ads
+36K22*Strings 104e25 8|36w19 41r38
+47P9*chars_ptr(character) 8|41r46
+X 6 system.ads
+37K9*System 196e11 8|38r9 46r5
+X 7 s-crtl.ads
+38K16*CRTL 6|37k9 7|213e16 8|38r16 46r12
+53I12*int{integer} 8|43r31
+X 8 s-crtrun.ads
+38K21*Runtime 7|38k16 8|46l17 46e24
+41P12*chars_ptr{5|47P9} 43r43
+43V13*strerror{41P12} 43>23 44b<c,strerror>22
+43i23 errno{7|53I12}
+

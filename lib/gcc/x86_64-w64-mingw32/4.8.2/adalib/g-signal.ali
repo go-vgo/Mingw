@@ -1,0 +1,93 @@
+V "GNAT Lib v4.8"
+A -gnatwa
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=core2
+A -march=nocona
+P ZX
+
+RN
+
+U gnat.signals%b	g-signal.adb		b35da892 NE OL PK
+W gnat%s		gnat.ads		gnat.ali
+W system%s		system.ads		system.ali
+W system.interrupts%s	s-interr.adb		s-interr.ali
+
+U gnat.signals%s	g-signal.ads		604bcea3 EE NE OL PK
+W ada%s			ada.ads			ada.ali
+W ada.interrupts%s	a-interr.adb		a-interr.ali
+W gnat%s		gnat.ads		gnat.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-except.ads		20120716125142 10fcae55
+D a-finali.ads		20111121113556 52ecdc1b
+D a-interr.ads		20090409150020 391cab36
+D a-stream.ads		20090409150020 2ca4ee37
+D a-tags.ads		20111212115430 6c0509d0
+D a-unccon.ads		20070406091342 f9eb8f06
+D gnat.ads		20110801150502 fd2ad2f1
+D g-signal.ads		20090409150020 a47db764
+D g-signal.adb		20090409150020 b51da3ca
+D interfac.ads		20110906094622 129923ea
+D i-c.ads		20110801143640 5421119b
+D i-cstrin.ads		20130104124956 341d0ddf
+D system.ads		20120723080122 5b069696
+D s-atacco.ads		20120515093410 4c36d12f
+D s-exctab.ads		20090417131548 66e51330
+D s-finmas.ads		20111024091916 b95bb341
+D s-finroo.ads		20120426095924 4ff27390
+D s-interr.ads		20110803092600 a23dbc3c
+D s-multip.ads		20101011073010 38ac9f73
+D s-osinte.ads		20130104124956 ecf1fbfd
+D s-parame.ads		20110830140626 b6e20cc0
+D s-pooglo.ads		20110804083314 542f33d0
+D s-soflin.ads		20120515094620 24c8153c
+D s-stache.ads		20090417130712 596fc1b4
+D s-stausa.ads		20110804134156 017a0a05
+D s-stalib.ads		20130104124956 f78bcf95
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152356 afc5dc80
+D s-stopoo.ads		20111013103734 7b8fbeee
+D s-tasinf.ads		20090409150020 859198ad
+D s-taspri.ads		20110927094500 196697f7
+D s-taskin.ads		20121029113218 59e95256
+D s-taprob.ads		20110927094500 502249e3
+D s-tpoben.ads		20121029113218 b641f948
+D s-traent.ads		20090417130712 5221ee41
+D s-unstyp.ads		20090409150020 6ae15c76
+D s-win32.ads		20130103100924 e5a79fe6
+X 1 ada.ads
+16K9*Ada 19e8 9|39r6 43r37 46r39 49r34 10|42r37 51r34 60r39
+X 4 a-interr.ads
+38K13*Interrupts 71e19 9|39w10 43r41 46r43 49r38 10|42r41 51r38 60r43
+40I9*Interrupt_ID<19|64I9> 9|43r52 46r54 49r49 10|42r52 51r49 60r54
+X 8 gnat.ads
+34K9*GNAT 37e9 9|41r9 52r5 10|34r14 65r5
+X 9 g-signal.ads
+41K14*Signals 8|34k9 9|52l10 52e17 10|34b19 65l10 65t17
+43U14*Block_Signal 43>28 10|42b14 45l8 45t20
+43i28 Signal{4|40I9} 10|42b28 44r44
+46U14*Unblock_Signal 46>30 10|60b14 63l8 63t22
+46i30 Signal{4|40I9} 10|60b30 62r46
+49V13*Is_Blocked{boolean} 49>25 10|51b13 54l8 54t18
+49i25 Signal{4|40I9} 10|51b25 53r46
+X 10 g-signal.adb
+36K12 SI=36:30 44r7 44r27 53r14 53r29 62r7 62r29
+X 14 system.ads
+37K9*System 10|32r6 36r23 14|196e11
+X 19 s-interr.ads
+50K16*Interrupts 10|32w13 36r30 19|277e22
+64I9*Ada_Interrupt_ID<short_short_integer>
+67I9*Interrupt_ID<short_short_integer> 10|44r30 53r32 62r32
+136U14*Block_Interrupt 10|44s10
+139U14*Unblock_Interrupt 10|62s10
+147V13*Is_Blocked{boolean} 10|53s17
+X 26 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+

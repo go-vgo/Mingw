@@ -1,0 +1,99 @@
+V "GNAT Lib v4.8"
+A -gnatwa
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=core2
+A -march=nocona
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_IMPLICIT_LOOPS
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_ELABORATION_CODE
+RV SPARK
+
+U system.vms_exception_table%b  s-vmexta.adb	a657762d OL PK
+W system%s		system.ads		system.ali
+W system.htable%s	s-htable.adb		s-htable.ali  EA
+
+U system.vms_exception_table%s  s-vmexta.ads	7df569c6 EE NE OL PK
+W system%s		system.ads		system.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-unccon.ads		20070406091342 f9eb8f06
+D a-uncdea.ads		20070406091342 f15a5ed1
+D system.ads		20120723080122 5b069696
+D s-htable.ads		20110902071448 83a84e0e
+D s-htable.adb		20120806074346 020b632f
+D s-stalib.ads		20130104124956 f78bcf95
+D s-strhas.ads		20090623093900 269cd894
+D s-vmexta.ads		20090409150020 d17830c5
+D s-vmexta.adb		20090713083928 f48708e6
+X 4 system.ads
+37K9*System 196e11 9|35r6 37r9 39r24 59r5 10|34r6 37r14 65r41 187r5
+X 5 s-htable.ads
+42K16*HTable 222e18 10|34w13 65r48
+138I12 Header_Num 10|66r6
+141+12 Element 10|67r6
+151+12 Elmt_Ptr 10|68r6
+155*7 Null_Ptr{151+12} 10|69r6
+158U22 Set_Next 10|70r6
+159V22 Next{151+12} 10|71r6
+163+12 Key 10|72r6
+164V21 Get_Key{163+12} 10|73r6
+165V21 Hash{138I12} 10|74r6
+166V21 Equal{boolean} 10|75r6
+168k12*Static_HTable 210e21 10|65r55
+179U17*Set 10|171s32[65]
+182V16*Get{10|44P9} 10|98s36[65] 170s32[65]
+X 7 s-stalib.ads
+55K16*Standard_Library 286e28 9|35w13 39r31
+105P9*Exception_Data_Ptr(104R9) 9|43r18 55r17 10|51r24 93r42 150r18
+108M9*Exception_Code 9|42r18 51r38 51r65 54r38 10|39r17 50r24 62r27 63r62
+. 72r24 82r18 82r45 93r15 124r17 135r15 137r40 138r13 149r18 155r29
+140e7*Lang{character} 10|167m9
+157m7*Import_Code{108M9} 10|168m9
+X 9 s-vmexta.ads
+37K16*VMS_Exception_Table 4|37k9 9|59l12 59e31 10|37b21 187l12 187t31
+39K12*SSL=39:31 42r14 43r14 51r34 51r61 54r34 55r13 10|39r13 50r20 51r20
+. 62r23 63r58 72r20 82r14 82r41 93r11 93r38 124r13 135r11 137r36 138r9 149r14
+. 150r14 155r25
+41U14*Register_VMS_Exception 42>7 43>7 10|148b14 173l8 173t30
+42m7 Code{7|108M9} 10|149b7 155r61
+43p7 E{7|105P9} 10|150b7 167m7 167r7 168m7 168r7 171r70
+51V13 Base_Code_In{7|108M9} 51>27 10|81b13 86l8 86t20 155s47
+51m27 Code{7|108M9} 10|82b7 85r14
+54V13 Coded_Exception{7|105P9} 54>30 10|92b13 106l8 106t23
+54m30 X{7|108M9} 10|93b7 98r41
+X 10 s-vmexta.adb
+41I9 HTable_Headers<short_short_integer> 62r50 66r20 135r38 138r29 138r51
+. 141r14
+43R9 Exception_Code_Data 44r47 49c9 53e14 67r20 171r41
+44P9 Exception_Code_Data_Ptr(43R9) 52r20 56r14 57r14 59r30 60r13 63r26 68r20
+. 95r13 113r11 113r43 123r26 180r14 181r14
+50m7*Code{7|108M9} 127r16
+51p7*Except{7|105P9} 101r21
+52p7*HTable_Ptr{44P9} 116r16 184m9
+55U14 Set_HT_Link 56>7 57>7 70r20 179b14 185l8 185t19
+56p7 T{44P9} 180b7 184m7 184r7
+57p7 Next{44P9} 181b7 184r23
+59V13 Get_HT_Link{44P9} 59>26 71r20 112b13 117l8 117t19
+59p26 T{44P9} 113b7 116r14
+62V13 Hash{41I9} 62>19 74r20 134b13 142l8 142t12
+62m19 F{7|108M9} 135b7 141r30
+63V13 Get_Key{7|108M9} 63>22 73r20 123b13 128l8 128t15
+63p22 T{44P9} 123b22 127r14
+65K12 Exception_Code_HTable[5|168] 98r14 170r10 171r10
+95p7 Res{44P9} 98m7 100r10 101r17
+137m7 Headers_Magnitude{7|108M9} 141r36
+155m7 Excode{7|108M9} 168r24 170r37 171r62
+

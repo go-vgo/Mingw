@@ -1,0 +1,85 @@
+V "GNAT Lib v4.8"
+A -gnatwa
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=core2
+A -march=nocona
+P ZX
+
+RN
+
+U ada.interrupts.names%s  a-intnam.ads		64db5f36 NE OL PK
+W ada.interrupts%s	a-interr.adb		a-interr.ali
+W system%s		system.ads		system.ali
+W system.os_interface%s	s-osinte.ads		s-osinte.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-except.ads		20120716125142 10fcae55
+D a-finali.ads		20111121113556 52ecdc1b
+D a-interr.ads		20090409150020 391cab36
+D a-intnam.ads		20110906094622 b1360ffd
+D a-stream.ads		20090409150020 2ca4ee37
+D a-tags.ads		20111212115430 6c0509d0
+D a-unccon.ads		20070406091342 f9eb8f06
+D interfac.ads		20110906094622 129923ea
+D i-c.ads		20110801143640 5421119b
+D i-cstrin.ads		20130104124956 341d0ddf
+D system.ads		20120723080122 5b069696
+D s-atacco.ads		20120515093410 4c36d12f
+D s-exctab.ads		20090417131548 66e51330
+D s-finmas.ads		20111024091916 b95bb341
+D s-finroo.ads		20120426095924 4ff27390
+D s-interr.ads		20110803092600 a23dbc3c
+D s-multip.ads		20101011073010 38ac9f73
+D s-osinte.ads		20130104124956 ecf1fbfd
+D s-parame.ads		20110830140626 b6e20cc0
+D s-pooglo.ads		20110804083314 542f33d0
+D s-soflin.ads		20120515094620 24c8153c
+D s-stache.ads		20090417130712 596fc1b4
+D s-stausa.ads		20110804134156 017a0a05
+D s-stalib.ads		20130104124956 f78bcf95
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152356 afc5dc80
+D s-stopoo.ads		20111013103734 7b8fbeee
+D s-tasinf.ads		20090409150020 859198ad
+D s-taspri.ads		20110927094500 196697f7
+D s-taskin.ads		20121029113218 59e95256
+D s-taprob.ads		20110927094500 502249e3
+D s-tpoben.ads		20121029113218 b641f948
+D s-traent.ads		20090417130712 5221ee41
+D s-unstyp.ads		20090409150020 6ae15c76
+D s-win32.ads		20130103100924 e5a79fe6
+X 1 ada.ads
+16K9*Ada 19e8 5|39r9 67r5
+X 4 a-interr.ads
+38K13*Interrupts 1|16k9 4|71e19 5|39r13 67r9
+40I9*Interrupt_ID<17|64I9> 5|49r23 52r23 55r23 58r23 61r23 64r23
+X 5 a-intnam.ads
+39K24*Names 4|38k13 5|67l20 67e25
+49i4*SIGINT{4|40I9}
+52i4*SIGILL{4|40I9}
+55i4*SIGABRT{4|40I9}
+58i4*SIGFPE{4|40I9}
+61i4*SIGSEGV{4|40I9}
+64i4*SIGTERM{4|40I9}
+X 12 system.ads
+37K9*System 5|37r6 50r16 53r16 56r16 59r16 62r16 65r16 12|196e11
+X 17 s-interr.ads
+64I9*Ada_Interrupt_ID<short_short_integer>
+X 19 s-osinte.ads
+48K16*OS_Interface 5|37w13 50r23 53r23 56r23 59r23 62r23 65r23 19|361e24
+85N4*SIGINT 5|50r36
+86N4*SIGILL 5|53r36
+87N4*SIGFPE 5|59r36
+88N4*SIGSEGV 5|62r36
+89N4*SIGTERM 5|65r36
+91N4*SIGABRT 5|56r36
+X 24 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+
